@@ -1,0 +1,997 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+/* Estilos globales */
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: url('Fondo A.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media (min-width: 3000px)
+{
+/* Contenedor principal */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-left {
+    position: absolute;
+    top: -16%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+}
+
+/* Contenedor de imágenes en la parte superior derecha */
+.qr-top-right {
+    position:fixed;
+    top: 1%;
+    margin-left: 85%;
+    margin-right: 0%;
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+
+.texto-qr-code 
+{   
+    margin-top: 3%;
+    width: 35%;
+    height: 20%;
+}
+
+.qr-code {
+    width: 12%;
+    height: 15%;
+}
+
+/* Contenedor del Video */
+/*.video-container {
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+}*/
+
+.video-player11 {
+    /*width: auto;
+    height: 92%;*/
+    display: flex;
+    align-items: center;
+    border: 20px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 770%;
+    margin-top: 45%;
+    margin-left: -340%;
+}
+
+/* Botón de interacción debajo del video */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.interact-button {
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: -2%;
+    height: auto;
+    cursor: pointer;
+    /*cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+
+/*.interact-button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+}*/
+
+/* Imagen inferior derecha */
+.qr-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+}
+
+@media (min-width: 1600px) and (max-width: 2900px)
+{
+/* Contenedor principal */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-left {
+    position: absolute;
+    top: -16%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+}
+
+/* Contenedor de imágenes en la parte superior derecha */
+.qr-top-right {
+    position:fixed;
+    top: 1%;
+    margin-left: 85%;
+    margin-right: 0%;
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+
+.texto-qr-code 
+{   
+    margin-top: 3%;
+    width: 35%;
+    height: 20%;
+}
+
+.qr-code {
+    width: 12%;
+    height: 15%;
+}
+
+/* Contenedor del Video */
+/*.video-container {
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+}*/
+
+.video-player11 {
+    /*width: auto;
+    height: 92%;*/
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 465%;
+    margin-top: 70%;
+    margin-left: -183%;
+}
+
+/* Botón de interacción debajo del video */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.interact-button {
+    width: 30%;
+    margin-top: 2%;
+    height: auto;
+    cursor: pointer;
+    /*cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+
+/*.interact-button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+}*/
+
+/* Imagen inferior derecha */
+.qr-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+}
+
+@media (min-width: 1281px) and (max-width: 1599px)
+{
+/* Contenedor principal */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-left {
+    position: absolute;
+    top: -16%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+}
+
+/* Contenedor de imágenes en la parte superior derecha */
+.qr-top-right {
+    position:fixed;
+    top: 1%;
+    margin-left: 85%;
+    margin-right: 0%;
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+
+.texto-qr-code 
+{   
+    margin-top: 3%;
+    width: 35%;
+    height: 20%;
+}
+
+.qr-code {
+    width: 12%;
+    height: 15%;
+}
+
+/* Contenedor del Video */
+/*.video-container {
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+}*/
+
+.video-player11 {
+    /*width: auto;
+    height: 92%;*/
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 77%;
+    margin-top: 11%;
+    margin-left: 12%;
+}
+
+/* Botón de interacción debajo del video */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.interact-button {
+    width: 30%;
+    margin-top: 2%;
+    height: auto;
+    cursor: pointer;
+    /*cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+
+/*.interact-button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+}*/
+
+/* Imagen inferior derecha */
+.qr-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+}
+
+@media (min-width: 481px) and (max-width: 1280px) {
+    /* Contenedor principal */
+    .main-container {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Imagen superior izquierda */
+    .qr-top-left {
+        position: absolute;
+        top: -18%;
+        left: -40%;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Contenedor de imágenes en la parte superior derecha */
+    .qr-top-right {
+        position: fixed;
+        top: 4%;
+        margin-left: 100%;
+        margin-right: 0%;
+        display: flex;
+        width: 100%;
+        gap: 1%;
+    }
+
+    .texto-qr-code {   
+        margin-top: 3%;
+        width: 30%;
+        height: 20%;
+    }
+
+    .qr-code {
+        width: 10%;
+        height: 15%;
+    }
+
+    /* Contenedor del Video */
+    .video-player11 {
+        display: flex;
+        align-items: center;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+        margin-top: 15%;
+        margin-left: 3%;
+    }
+
+    /* Botón de interacción debajo del video */
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .interact-button {
+        width: 35%;
+        margin-top: 2%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    /* Imagen inferior derecha */
+    .qr-bottom-right {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 80px;
+        height: auto;
+    }
+}
+
+/* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
+@media (min-width: 414px) and (max-width: 896px)
+{
+    .Div_VideoZona{
+        position: absolute;
+        height: auto;
+        width: 100%;
+        margin-top: 200%;
+        margin-left: 130%;
+    }
+    
+    .Powered {
+        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
+        font-weight: bold;
+        font-size: 1em; /* Ajusta el tamaño según lo necesites */
+        color: #ffffff;
+        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+        position: relative;
+        margin-bottom: 2%;
+    }
+    
+    .videoZona{
+        position: absolute;
+        height: 150%;
+        /*width: 100%;*/
+    
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+/* Contenedor principal */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-left {
+    position: absolute;
+    top: -12%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+}
+
+/* Contenedor de imágenes en la parte superior derecha */
+.qr-top-right {
+    position:fixed;
+    top: 1%;
+    margin-left: 85%;
+    margin-right: 0%;
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+
+.texto-qr-code 
+{   
+    margin-top: 3%;
+    width: 35%;
+    height: 20%;
+}
+
+.qr-code {
+    width: 12%;
+    height: 15%;
+}
+
+/* Contenedor del Video */
+/*.video-container {
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+}*/
+
+.video-player11 {
+    /*width: auto;
+    height: 92%;*/
+    display: flex;
+    align-items: center;
+    border: 3px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 88%;
+    margin-top: 0%;
+    margin-left: 6%;
+}
+
+/* Botón de interacción debajo del video */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.interact-button {
+    width: 30%;
+    margin-top: 2%;
+    height: auto;
+    cursor: pointer;
+    /*cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+
+/*.interact-button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+}*/
+
+/* Imagen inferior derecha */
+.qr-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+}
+
+/* Estilos para dispositivos móviles de tamaño medio a grande */
+@media (max-width: 480px) and (min-width: 375px)
+{
+    .Div_VideoZona{
+        position: absolute;
+        height: auto;
+        width: 100%;
+        margin-top: 150%;
+        margin-left: 140%;
+    }
+    
+    .Powered {
+        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
+        font-weight: bold;
+        font-size: 0.9em; /* Ajusta el tamaño según lo necesites */
+        color: #ffffff;
+        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+        position: relative;
+        margin-bottom: 1%;
+    }
+    
+    .videoZona{
+        position: absolute;
+        height: 150%;
+        /*width: 100%;*/
+    
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+/* Contenedor principal */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-left {
+    position: absolute;
+    top: -12%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+}
+
+/* Contenedor de imágenes en la parte superior derecha */
+.qr-top-right {
+    position:fixed;
+    top: 1%;
+    margin-left: 85%;
+    margin-right: 0%;
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+
+.texto-qr-code 
+{   
+    margin-top: 3%;
+    width: 35%;
+    height: 20%;
+}
+
+.qr-code {
+    width: 12%;
+    height: 15%;
+}
+
+/* Contenedor del Video */
+/*.video-container {
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+}*/
+
+.video-player11 {
+    /*width: auto;
+    height: 92%;*/
+    display: flex;
+    align-items: center;
+    border: 3px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 88%;
+    margin-top: 0%;
+    margin-left: 6%;
+}
+
+/* Botón de interacción debajo del video */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.interact-button {
+    width: 30%;
+    margin-top: 2%;
+    height: auto;
+    cursor: pointer;
+    /*cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+
+/*.interact-button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+}*/
+
+/* Imagen inferior derecha */
+.qr-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+}
+
+/* Estilos para dispositivos móviles pequeños */
+@media (min-width: 320px) and (max-width: 374px)
+{
+        .Div_VideoZona{
+        position: absolute;
+        height: auto;
+        width: 100%;
+        margin-top: 150%;
+        margin-left: 130%;
+    }
+    
+    .Powered {
+        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
+        font-weight: bold;
+        font-size: 1em; /* Ajusta el tamaño según lo necesites */
+        color: #ffffff;
+        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+        position: relative;
+        margin-bottom: 2%;
+    }
+    
+    .videoZona{
+        position: absolute;
+        height: 150%;
+        /*width: 100%;*/
+    
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+/* Contenedor principal */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-left {
+    position: absolute;
+    top: -12%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+}
+
+/* Contenedor de imágenes en la parte superior derecha */
+.qr-top-right {
+    position:fixed;
+    top: 1%;
+    margin-left: 85%;
+    margin-right: 0%;
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+
+.texto-qr-code 
+{   
+    margin-top: 3%;
+    width: 35%;
+    height: 20%;
+}
+
+.qr-code {
+    width: 12%;
+    height: 15%;
+}
+
+/* Contenedor del Video */
+/*.video-container {
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+}*/
+
+.video-player11 {
+    /*width: auto;
+    height: 92%;*/
+    display: flex;
+    align-items: center;
+    border: 3px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 88%;
+    margin-top: 0%;
+    margin-left: 6%;
+}
+
+/* Botón de interacción debajo del video */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.interact-button {
+    width: 30%;
+    margin-top: 2%;
+    height: auto;
+    cursor: pointer;
+    /*cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+
+/*.interact-button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+}*/
+
+/* Imagen inferior derecha */
+.qr-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+}
+
+/* Pantallas medianas en orientación horizontal */
+@media (max-height: 1280px) and (orientation: landscape) 
+{
+/* Contenedor principal */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-left {
+    position: absolute;
+    top: -55%;
+    left: -42%;
+    width: 100%;
+    height: auto;
+}
+
+/* Contenedor de imágenes en la parte superior derecha */
+.qr-top-right {
+    position:fixed;
+    top: 1%;
+    margin-left: 85%;
+    margin-right: 0%;
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+
+.texto-qr-code 
+{   
+    margin-top: 1%;
+    width: 20%;
+    height: 10%;
+    margin-left: 20%;
+}
+
+.qr-code {
+    width: 12%;
+    height: 15%;
+}
+
+/* Contenedor del Video */
+/*.video-container {
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+}*/
+
+.video-player11 {
+    /*width: auto;
+    height: 92%;*/
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 85%;
+    margin-top: 8%;
+    margin-left: 12%;
+}
+
+/* Botón de interacción debajo del video */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.interact-button {
+    width: 25%;
+    margin-top: 1%;
+    height: auto;
+    cursor: pointer;
+    /*cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+
+/*.interact-button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+}*/
+
+/* Imagen inferior derecha */
+.qr-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+}
+
+/* Pantallas medianas en orientación horizontal */
+@media (max-height: 800px) and (orientation: landscape)
+{
+/* Contenedor principal */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-left {
+    position: absolute;
+    top: -60%;
+    left: -42%;
+    width: 100%;
+    height: auto;
+}
+
+/* Contenedor de imágenes en la parte superior derecha */
+.qr-top-right {
+    position:fixed;
+    top: 1%;
+    margin-left: 85%;
+    margin-right: 0%;
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+
+.texto-qr-code 
+{   
+    margin-top: 1%;
+    width: 20%;
+    height: 10%;
+    margin-left: 20%;
+}
+
+.qr-code {
+    width: 12%;
+    height: 15%;
+}
+
+/* Contenedor del Video */
+/*.video-container {
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+}*/
+
+.video-player11 {
+    /*width: auto;
+    height: 92%;*/
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+/* Botón de interacción debajo del video */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.interact-button {
+    width: 22%;
+    margin-top: 1%;
+    height: auto;
+    cursor: pointer;
+    /*cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+
+/*.interact-button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+}*/
+
+/* Imagen inferior derecha */
+.qr-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+}

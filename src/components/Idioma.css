@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+/* Estilos globales */
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: url('Fondo A.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+/* Capa azul difuminada sobre todos los elementos */
+.main-containerI::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 72, 155, 0.5); 
+    z-index: 1;
+    pointer-events: none;  
+}
+
+@media (min-width: 3000px)
+{
+/* Contenedor principal */
+.main-containerI {
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-leftI {
+    position: absolute;
+    top: -16%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    
+}
+
+.video-player111I {
+
+    /*z-index: 1;*/
+    position:relative;
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 870%;
+
+    filter: blur(100px); /* Aplica el efecto de desenfoque */
+
+    margin-top: 75%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: -380%;
+
+}
+
+/* Botón de interacción debajo del video */
+.button-container1I {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.interact-button1I {
+    width: 35%;
+
+    top: 40%;
+    bottom: -100%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+.interact-button2I {
+    width: 35%;
+
+    top: 50%;
+    bottom: -50%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+}
+
+@media (min-width: 1600px) and (max-width: 2900px)
+{
+/* Contenedor principal */
+.main-containerI {
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-leftI {
+    position: absolute;
+    top: -16%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    
+}
+
+.video-player111I {
+
+    /*z-index: 1;*/
+    position:relative;
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 465%;
+
+    filter: blur(50px); /* Aplica el efecto de desenfoque */
+
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: -182%;
+
+}
+
+/* Botón de interacción debajo del video */
+.button-container1I {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.interact-button1I {
+    width: 35%;
+
+    top: 42%;
+    bottom: -100%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+.interact-button2I {
+    width: 35%;
+
+    top: 50%;
+    bottom: -50%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+}
+
+@media (min-width: 1281px) and (max-width: 1599px)
+{
+/* Contenedor principal */
+.main-containerI {
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-leftI {
+    position: absolute;
+    top: -16%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    
+}
+
+.video-player111I {
+
+    /*z-index: 1;*/
+    position:relative;
+    display: flex;
+    align-items: center;
+    border: 5px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 77%;
+
+    filter: blur(8px); /* Aplica el efecto de desenfoque */
+
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 12%;
+
+}
+
+/* Botón de interacción debajo del video */
+.button-container1I {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.interact-button1I {
+    width: 35%;
+
+    top: 40%;
+    bottom: -100%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+.interact-button2I {
+    width: 35%;
+
+    top: 50%;
+    bottom: -50%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 1280px) {
+    /* Contenedor principal */
+    .main-containerI {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Imagen superior izquierda */
+    .qr-top-leftI {
+        position: absolute;
+        top: -18%;
+        left: -30%;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    }
+
+    .video-player111I {
+        /*z-index: 1;*/
+        position: relative;
+        display: flex;
+        align-items: center;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+
+        filter: blur(12px); /* Aplica el efecto de desenfoque */
+
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-left: 2%;
+    }
+
+    /* Botón de interacción debajo del video */
+    .button-container1I {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+    }
+
+    .interact-button1I {
+        width: 30%;
+        top: 38%;
+        bottom: -100%; 
+        left: 35%;
+        height: auto;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+    }
+
+    .interact-button2I {
+        width: 30%;
+        top: 48%;
+        bottom: -50%; 
+        left: 35%;
+        height: auto;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+    }
+
+
+}
+
+/* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
+@media (min-width: 414px) and (max-width: 896px)
+{
+
+    .Div_VideoZona{
+        position: absolute;
+        height: auto;
+        width: 100%;
+        margin-top: 150%;
+        margin-left: 130%;
+    }
+    
+    .Powered {
+        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
+        font-weight: bold;
+        font-size: 1em; /* Ajusta el tamaño según lo necesites */
+        color: #ffffff;
+        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+        position: relative;
+        margin-bottom: 2%;
+    }
+    
+    .videoZona{
+        position: absolute;
+        height: 150%;
+        /*width: 100%;*/
+    
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+/* Contenedor principal */
+.main-containerI {
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-leftI {
+    position: absolute;
+    top: -12%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    
+}
+
+.video-player111I {
+
+    /*z-index: 1;*/
+    position:relative;
+    display: flex;
+    align-items: center;
+    border: 3px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 77%;
+
+    filter: blur(15px); /* Aplica el efecto de desenfoque */
+
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 12%;
+
+}
+
+/* Botón de interacción debajo del video */
+.button-container1I {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.interact-button1I {
+    width: 35%;
+
+    top: 40%;
+    bottom: -100%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+.interact-button2I {
+    width: 35%;
+
+    top: 50%;
+    bottom: -50%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+}
+
+/* Estilos para dispositivos móviles de tamaño medio a grande */
+@media (max-width: 480px) and (min-width: 375px)
+{
+
+    .Div_VideoZona{
+        position: absolute;
+        height: auto;
+        width: 100%;
+        margin-top: 130%;
+        margin-left: 130%;
+    }
+    
+    .Powered {
+        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
+        font-weight: bold;
+        font-size: 1em; /* Ajusta el tamaño según lo necesites */
+        color: #ffffff;
+        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+        position: relative;
+        margin-bottom: 2%;
+    }
+    
+    .videoZona{
+        position: absolute;
+        height: 150%;
+        /*width: 100%;*/
+    
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+/* Contenedor principal */
+.main-containerI {
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-leftI {
+    position: absolute;
+    top: -12%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    
+}
+
+.video-player111I {
+
+    /*z-index: 1;*/
+    position:relative;
+    display: flex;
+    align-items: center;
+    border: 3px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 77%;
+
+    filter: blur(15px); /* Aplica el efecto de desenfoque */
+
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 12%;
+
+}
+
+/* Botón de interacción debajo del video */
+.button-container1I {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.interact-button1I {
+    width: 35%;
+
+    top: 40%;
+    bottom: -100%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+.interact-button2I {
+    width: 35%;
+
+    top: 50%;
+    bottom: -50%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+}
+
+/* Estilos para dispositivos móviles pequeños */
+@media (min-width: 320px) and (max-width: 374px)
+{
+
+    .Div_VideoZona{
+        position: absolute;
+        height: auto;
+        width: 100%;
+        margin-top: 130%;
+        margin-left: 130%;
+    }
+    
+    .Powered {
+        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
+        font-weight: bold;
+        font-size: 1em; /* Ajusta el tamaño según lo necesites */
+        color: #ffffff;
+        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+        position: relative;
+        margin-bottom: 2%;
+    }
+    
+    .videoZona{
+        position: absolute;
+        height: 150%;
+        /*width: 100%;*/
+    
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+/* Contenedor principal */
+.main-containerI {
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen superior izquierda */
+.qr-top-leftI {
+    position: absolute;
+    top: -12%;
+    left: -40%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    
+}
+
+.video-player111I {
+
+    /*z-index: 1;*/
+    position:relative;
+    display: flex;
+    align-items: center;
+    border: 3px solid #1b489b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    width: 77%;
+
+    filter: blur(15px); /* Aplica el efecto de desenfoque */
+
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 12%;
+
+}
+
+/* Botón de interacción debajo del video */
+.button-container1I {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.interact-button1I {
+    width: 35%;
+
+    top: 40%;
+    bottom: -100%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+.interact-button2I {
+    width: 35%;
+
+    top: 50%;
+    bottom: -50%; 
+    left: 30%;
+
+ 
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+
+}
+
+/* Pantallas medianas en orientación horizontal */
+@media (max-height: 800px) and (orientation: landscape) 
+{
+    /* Contenedor principal */
+    .main-containerI {
+        width: 100vw;
+        height: 100vh;
+        position:fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Imagen superior izquierda */
+    .qr-top-leftI {
+        position: absolute;
+        top: -55%;
+        left: -40%;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        
+    }
+    
+    .video-player111I {
+    
+        /*z-index: 1;*/
+        position:relative;
+        display: flex;
+        align-items: center;
+        border: 5px solid #1b489b;
+        border-radius: 10px;
+        overflow: hidden;
+        height: auto;
+        width: 90%;
+    
+        filter: blur(8px); /* Aplica el efecto de desenfoque */
+    
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+    
+    }
+    
+    /* Botón de interacción debajo del video */
+    .button-container1I {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .interact-button1I {
+        width: 25%;
+        top: 50%;
+        bottom: -100%; 
+        left: 30%; 
+        height: auto;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+    }
+    
+    .interact-button2I {
+        width: 25%;    
+        top: 50%;
+        bottom: -50%; 
+        left: 30%;
+        height: auto;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+    }
+    
+}
+
+/* Pantallas medianas en orientación horizontal */
+@media (max-height: 1280px) and (orientation: landscape) 
+{
+    /* Contenedor principal */
+    .main-containerI {
+        width: 100vw;
+        height: 100vh;
+        position:fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Imagen superior izquierda */
+    .qr-top-leftI {
+        position: absolute;
+        top: -55%;
+        left: -40%;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        
+    }
+    
+    .video-player111I {
+    
+        /*z-index: 1;*/
+        position:relative;
+        display: flex;
+        align-items: center;
+        border: 5px solid #1b489b;
+        border-radius: 10px;
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+    
+        filter: blur(8px); /* Aplica el efecto de desenfoque */
+    
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+    
+    }
+    
+    /* Botón de interacción debajo del video */
+    .button-container1I {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .interact-button1I {
+        width: 25%;
+    
+        top: 25%;
+        bottom: -50%; 
+        left: 35%;
+    
+     
+        height: auto;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+    }
+    
+    .interact-button2I {
+        width: 25%;
+    
+        top: 50%;
+        bottom: -50%; 
+        left: 35%;
+    
+     
+        height: auto;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+    }
+    
+}

@@ -1,0 +1,852 @@
+
+@media (min-width: 3000px)
+{
+    .main-container7 {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left7 {
+        position: absolute;
+        top: -15%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right17 {
+        margin-top: 5%;
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 48%;
+        margin-bottom: 0%;
+    }
+    
+    .image-top-right27 {
+        position:fixed;
+        top: 2%;
+        margin-left: 89%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 10%;
+        gap: 1%;
+    }
+    
+    .video-wrapper7 {
+        display: flex;
+        align-items: center;
+        height: 74%;
+        width: 88%;
+        border-radius: 10px;
+        margin-left: -2%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player7 {
+        
+        width: auto;
+        height: 96%;
+        margin-top: 49%;
+        margin-left: 5%;
+        border: 20px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container7 {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 73%;
+        margin-right: 4%;
+        margin-top: -30%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-30%);
+    }
+    
+    .button-image7 {
+        cursor: pointer;
+        margin-bottom: 15%;
+        width: 110%;
+    }
+    
+    .bottom-left-button7 {
+        position: absolute;
+        bottom:8%;
+        left: 3%;
+        cursor: pointer;
+        width: 25%;
+        height: auto;
+    }
+
+    .Titulo7 {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(230%);
+        color: #1b489b;
+        font-size: 250px;
+        font-family: 'Segoe UI';
+        font-weight: 900; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button27 {
+        position: fixed;
+        bottom: 8%;
+        left: 30%;
+        cursor: pointer;
+        width: 25%;
+        height: auto;
+    }
+    
+    .image-bottom-left7 {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+    }
+    
+    
+}
+
+@media (min-width: 1600px) and (max-width: 2900px)
+{
+    .main-container7 {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left7 {
+        position: absolute;
+        top: -13%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right17 {
+        margin-top: 5%;
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 48%;
+        margin-bottom: 0%;
+    }
+    
+    .image-top-right27 {
+        position:fixed;
+        top: 2%;
+        margin-left: 89%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 10%;
+        gap: 1%;
+    }
+    
+    .video-wrapper7 {
+        display: flex;
+        align-items: center;
+        height: 74%;
+        width: 74%;
+        border-radius: 10px;
+        margin-left: -2%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player7 {
+        
+        width: auto;
+        height: 96%;
+        margin-top: 65%;
+        margin-left: 5%;
+        border: 15px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container7 {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 74%;
+        margin-right: 5%;
+        margin-top: -35%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-30%);
+    }
+    
+    .button-image7 {
+        cursor: pointer;
+        margin-bottom: 15%;
+        width: 120%;
+    }
+    
+    .bottom-left-button7 {
+        position: absolute;
+        bottom:8%;
+        left: 3%;
+        cursor: pointer;
+        width: 27%;
+        height: auto;
+    }
+
+    .Titulo7 {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(270%);
+        color: #1b489b;
+        font-size: 130px;
+        font-family: 'Segoe UI';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button27 {
+        position: fixed;
+        bottom: 8%;
+        left: 32%;
+        cursor: pointer;
+        width: 27%;
+        height: auto;
+    }
+    
+    .image-bottom-left7 {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+    }
+    
+    
+}
+
+@media (min-width: 1281px) and (max-width: 1599px)
+{
+    .main-container7 {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left7 {
+        position: absolute;
+        top: -15%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right17 {
+        margin-top: 5%;
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 48%;
+        margin-bottom: 0%;
+    }
+    
+    .image-top-right27 {
+        position:fixed;
+        top: 2%;
+        margin-left: 89%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 10%;
+        gap: 1%;
+    }
+    
+    .video-wrapper7 {
+        display: flex;
+        align-items: center;
+        height: 77%;
+        width: 88%;
+        border-radius: 10px;
+        margin-left: -2%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player7 {
+        
+        width: auto;
+        height: 96%;
+        margin-top: 49%;
+        margin-left: 5%;
+        border: 5px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container7 {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 73%;
+        margin-right: 4%;
+        margin-top: -35%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-30%);
+    }
+    
+    .button-image7 {
+        cursor: pointer;
+        margin-bottom: 15%;
+        width: 110%;
+    }
+    
+    .bottom-left-button7 {
+        position: absolute;
+        bottom:6%;
+        left: 3%;
+        cursor: pointer;
+        width: 25%;
+        height: auto;
+    }
+
+    .Titulo7 {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(340%);
+        color: #1b489b;
+        font-size: 40px;
+        font-family: 'Segoe UI';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button27 {
+        position: fixed;
+        bottom: 6%;
+        left: 30%;
+        cursor: pointer;
+        width: 25%;
+        height: auto;
+    }
+    
+    .image-bottom-left7 {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+    }
+    
+    
+}
+
+@media (min-width: 481px) and (max-width: 1280px)
+{
+    .main-container7 {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left7 {
+        position: absolute;
+        top: -15%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right17 {
+        margin-top: 5%;
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 48%;
+        margin-bottom: 0%;
+    }
+    
+    .image-top-right27 {
+        position:fixed;
+        top: 2%;
+        margin-left: 89%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 10%;
+        gap: 1%;
+    }
+    
+    .video-wrapper7 {
+        display: flex;
+        align-items: center;
+        height: 65%;
+        width: 70%;
+        border-radius: 10px;
+        margin-left: 1%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player7 {
+        
+        width: auto;
+        height: 100%;
+        margin-top: 90%;
+        margin-left: 5%;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container7 {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 65%;
+        margin-right: 12%;
+        margin-top: -12%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-15%);
+    }
+    
+    .button-image7 {
+        cursor: pointer;
+        margin-bottom: 15%;
+        width: 110%;
+    }
+    
+    .bottom-left-button7 {
+        position: absolute;
+        bottom: 4%;
+        left: 5%;
+        cursor: pointer;
+        width: 25%;
+        height: auto;
+    }
+
+    .Titulo7 {
+        position: fixed;
+        margin-left: 5%;
+        transform: translateY(400%);
+        color: #1b489b;
+        font-size: 40px;
+        font-family: 'Segoe UI';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 2px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button27 {
+        position: fixed;
+        bottom: 4%;
+        left: 32%;
+        cursor: pointer;
+        width: 25%;
+        height: auto;
+    }
+    
+    .image-bottom-left7 {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+    }
+    
+    
+}
+
+/* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
+@media (min-width: 414px) and (max-width: 896px)
+{
+    .main-container7 {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left7 {
+        position: absolute;
+        top: -10%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right17 {
+        margin-top: 5%;
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 48%;
+        margin-bottom: 0%;
+    }
+    
+    .image-top-right27 {
+        position:fixed;
+        top: 2%;
+        margin-left: 89%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 10%;
+        gap: 1%;
+    }
+    
+    .video-wrapper7 {
+        display: flex;
+        align-items: center;
+        height: 60%;
+        width: 60%;
+        border-radius: 10px;
+        margin-left: -2%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player7 {
+        
+        width: auto;
+        height: 91%;
+        margin-top: 115%;
+        margin-left: 5%;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container7 {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 71%;
+        margin-right: 6%;
+        margin-top: -25%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-15%);
+    }
+    
+    .button-image7 {
+        cursor: pointer;
+        margin-bottom: 0%;
+        width: 120%;
+    }
+    
+    .bottom-left-button7 {
+        position: absolute;
+        bottom: 20%;
+        left: 3%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+
+    .Titulo7 {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(490%);
+        color: #1b489b;
+        font-size: 22px;
+        font-family: 'Segoe UI';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 2px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button27 {
+        position: fixed;
+        bottom: 20%;
+        left: 36%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+    
+    .image-bottom-left7 {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+    }
+    
+    
+}
+
+/* Estilos para dispositivos móviles de tamaño medio a grande */
+@media (max-width: 480px) and (min-width: 375px)
+{
+    .main-container7 {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left7 {
+        position: absolute;
+        top: -12%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right17 {
+        margin-top: 5%;
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 48%;
+        margin-bottom: 0%;
+    }
+    
+    .image-top-right27 {
+        position:fixed;
+        top: 2%;
+        margin-left: 89%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 10%;
+        gap: 1%;
+    }
+    
+    .video-wrapper7 {
+        display: flex;
+        align-items: center;
+        height: 63%;
+        width: 63%;
+        border-radius: 10px;
+        margin-left: -2%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player7 {
+        
+        width: auto;
+        height: 96%;
+        margin-top: 85%;
+        margin-left: 5%;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container7 {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 72%;
+        margin-right: 6%;
+        margin-top: -35%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-15%);
+    }
+    
+    .button-image7 {
+        cursor: pointer;
+        margin-bottom: 0%;
+        width: 120%;
+    }
+    
+    .bottom-left-button7 {
+        position: absolute;
+        bottom: 12%;
+        left: 3%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+
+    .Titulo7 {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(320%);
+        color: #1b489b;
+        font-size: 22px;
+        font-family: 'Segoe UI';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button27 {
+        position: absolute;
+        bottom: 12%;
+        left: 35%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+    
+    .image-bottom-left7 {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+    }
+    
+    
+}
+
+/* Estilos para dispositivos móviles pequeños */
+@media (min-width: 320px) and (max-width: 374px)
+{
+    .main-container7 {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left7 {
+        position: absolute;
+        top: -12%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right17 {
+        margin-top: 5%;
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 48%;
+        margin-bottom: 0%;
+    }
+    
+    .image-top-right27 {
+        position:fixed;
+        top: 2%;
+        margin-left: 89%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 10%;
+        gap: 1%;
+    }
+    
+    .video-wrapper7 {
+        display: flex;
+        align-items: center;
+        height: 63%;
+        width: 63%;
+        border-radius: 10px;
+        margin-left: -2%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player7 {
+        
+        width: auto;
+        height: 96%;
+        margin-top: 85%;
+        margin-left: 5%;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container7 {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 71%;
+        margin-right: 6%;
+        margin-top: -35%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-15%);
+    }
+    
+    .button-image7 {
+        cursor: pointer;
+        margin-bottom: 0%;
+        width: 120%;
+    }
+    
+    .bottom-left-button7 {
+        position: absolute;
+        bottom: 18.3%;
+        left: 3%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+
+    .Titulo7 {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(320%);
+        color: #1b489b;
+        font-size: 22px;
+        font-family: 'Segoe UI';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button27 {
+        position: fixed;
+        bottom: 12%;
+        left: 35%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+    
+    .image-bottom-left7 {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+    }
+    
+    
+}
+
+
