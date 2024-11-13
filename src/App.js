@@ -12,7 +12,6 @@ import Contacto from './components/Contacto';
 import Reservacion from './components/Reservacion';
 import Opinion from './components/Opinion';
 import Encuesta from './components/Encuesta';
-import VideoEncuesta from './components/VideoEncuesta';
 import Publicidad from './components/Especiales';
 import Loader from './Loader';
 
@@ -44,7 +43,6 @@ function App() {
         <Route path="/Reservacion" element={<Reservacion />} />
         <Route path="/Encuesta" element={<Encuesta />} />
         <Route path="/Opinion" element={<Opinion />} />
-        <Route path="/VideoEncuesta" element={<VideoEncuesta />} />
         <Route path="/especiales" element={<Publicidad />} />
       </Routes>
     </Router>
