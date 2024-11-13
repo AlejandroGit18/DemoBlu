@@ -1,16 +1,15 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Idioma.css';
 import SemiCirculoSuperior from './Semicirculo con Logo.png';
 import Boton1 from './Español.png';
 import Boton2 from './English.png';
 import videoSource from './VIDEO_IDIOMA.mp4';
-import VideoZona from './VideoZona_white.png'
+import VideoZona from './VideoZona_white.png';
 
 function Main() {
     const navigate = useNavigate();
     const videoRef = useRef(null);
-    const [IsFading,setIsFading] = useState(false);
 
     useEffect(() => {
         const videoElement = videoRef.current;
@@ -33,7 +32,6 @@ function Main() {
     }, []);
 
     const handleInteractionClick = () => {
-        setIsFading(true);
         setTimeout(() => {
             navigate('/Interactua');
         }, 1500);
@@ -44,12 +42,6 @@ function Main() {
             {/* Imagen en la parte superior izquierda */}
             <img src={SemiCirculoSuperior} alt="QR Code" className="qr-top-leftI" />
 
-            {/* Imágenes en la parte superior derecha */}
-            {/*<div className="qr-top-right">
-                <img src={TextoSuperior} alt="QR Code" className="texto-qr-code" />
-                <img src={qrCode} alt="QR Code" className="qr-code" />
-            </div>*/}
-
             {/* Contenedor del video */}
             <div className="video-container1I">
                 <video
@@ -57,12 +49,10 @@ function Main() {
                     className="video-player111I"
                     muted 
                     src={videoSource}              
-                >
-                </video>
+                />
             </div>
 
-            {/* Imagen con acción de navegación como botón debajo del video */}
-            {/**/}
+            {/* Imágenes de botones para interacción */}
             <div className="button-container1I">
                 <img
                     src={Boton1}
@@ -70,24 +60,19 @@ function Main() {
                     className="interact-button1I"
                     onClick={handleInteractionClick}
                 />
-
                 <img
                     src={Boton2}
                     alt="Interact Button"
                     className="interact-button2I"
                     onClick={handleInteractionClick}
                 />
-                </div>
+            </div>
 
-                <div class="Div_VideoZona">
-                    <p class="Powered">POWERED BY</p>
-                    <img src={VideoZona} alt="VideoZOna" className="videoZona" />
-                </div>
-            {/**/}
-
-            {/* Imagen en la parte inferior derecha 
-            <img src={qrCode} alt="QR Code" className="qr-bottom-right" />
-            */}
+            {/* Contenedor de VideoZona */}
+            <div className="Div_VideoZona">
+                <p className="Powered">POWERED BY</p>
+                <img src={VideoZona} alt="VideoZona" className="videoZona" />
+            </div>
         </div>
     );
 }

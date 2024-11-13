@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Main.css';
 import SemiCirculoSuperior from './Semicirculo con Logo.png';
@@ -6,12 +6,11 @@ import Boton from './Interactua Conmigo.png';
 import TextoSuperior from './movilQr.png';
 import qrCode from './QR1.png';
 import videoSource from './VIDEO_IDIOMA.mp4';
-import VideoZona from './VideoZona_white.png'
+import VideoZona from './VideoZona_white.png';
 
 function Main() {
     const navigate = useNavigate();
     const videoRef = useRef(null);
-    const [IsFading,setIsFading] = useState(false);
 
     useEffect(() => {
         const videoElement = videoRef.current;
@@ -34,7 +33,6 @@ function Main() {
     }, []);
 
     const handleInteractionClick = () => {
-        setIsFading(true);
         setTimeout(() => {
             navigate('/Main');
         }, 1500);
@@ -58,8 +56,7 @@ function Main() {
                     className="video-player11"
                     autoPlay
                     src={videoSource}
-                >
-                </video>
+                />
             </div>
 
             {/* Imagen con acción de navegación como botón debajo del video */}
@@ -72,14 +69,10 @@ function Main() {
                 />
             </div>
 
-            <div class="Div_VideoZona">
-                    <p class="Powered">POWERED BY</p>
-                    <img src={VideoZona} alt="VideoZOna" className="videoZona" />
+            <div className="Div_VideoZona">
+                <p className="Powered">POWERED BY</p>
+                <img src={VideoZona} alt="VideoZona" className="videoZona" />
             </div>
-
-            {/* Imagen en la parte inferior derecha 
-            <img src={qrCode} alt="QR Code" className="qr-bottom-right" />
-            */}
         </div>
     );
 }
