@@ -176,9 +176,9 @@ body {
     border-radius: 10px;
     overflow: hidden;
     height: auto;
-    width: 465%;
-    margin-top: 70%;
-    margin-left: -183%;
+    width: 150%;
+    margin-top: 20%;
+    margin-left: -25%;
 }
 
 /* Botón de interacción debajo del video */
@@ -313,6 +313,7 @@ body {
 }
 
 @media (min-width: 481px) and (max-width: 1280px) {
+
     /* Contenedor principal */
     .main-container {
         width: 100vw;
@@ -357,15 +358,20 @@ body {
 
     /* Contenedor del Video */
     .video-player11 {
-        display: flex;
-        align-items: center;
-        border: 3px solid #1b489b;
-        border-radius: 10px;
-        overflow: hidden;
-        height: auto;
-        width: 100%;
-        margin-top: 15%;
-        margin-left: 3%;
+       z-index: -1;
+       position: relative;
+       display: flex;
+       align-items: center;
+       border: 3px solid #1b489b;
+       border-radius: 10px;
+       overflow: hidden;
+       height: auto;
+       width: 50%;
+
+       margin-top: 0%;
+       margin-right: 0%;
+       margin-bottom: 0%;
+       margin-left: 25%;
     }
 
     /* Botón de interacción debajo del video */
@@ -526,34 +532,14 @@ body {
 
 /* Estilos para dispositivos móviles de tamaño medio a grande */
 @media (max-width: 480px) and (min-width: 375px)
-{
-    .Div_VideoZona{
+{    
+        .videoZona{
         position: absolute;
-        height: auto;
-        width: 100%;
-        margin-top: 150%;
-        margin-left: 140%;
-    }
-    
-    .Powered {
-        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
-        font-weight: bold;
-        font-size: 0.9em; /* Ajusta el tamaño según lo necesites */
-        color: #ffffff;
-        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
-        text-transform: uppercase;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
-        position: relative;
-        margin-bottom: 1%;
-    }
-    
-    .videoZona{
-        position: absolute;
-        height: 150%;
+        height: 15%;
         /*width: 100%;*/
     
-        margin-top: 0%;
-        margin-left: 0%;
+        margin-top: 160%;
+        margin-left: 70%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
@@ -660,33 +646,13 @@ body {
 /* Estilos para dispositivos móviles pequeños */
 @media (min-width: 320px) and (max-width: 374px)
 {
-        .Div_VideoZona{
+      .videoZona{
         position: absolute;
-        height: auto;
-        width: 100%;
-        margin-top: 150%;
-        margin-left: 130%;
-    }
-    
-    .Powered {
-        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
-        font-weight: bold;
-        font-size: 1em; /* Ajusta el tamaño según lo necesites */
-        color: #ffffff;
-        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
-        text-transform: uppercase;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
-        position: relative;
-        margin-bottom: 2%;
-    }
-    
-    .videoZona{
-        position: absolute;
-        height: 150%;
+        height: 15%;
         /*width: 100%;*/
     
-        margin-top: 0%;
-        margin-left: 0%;
+        margin-top: 160%;
+        margin-left: 70%;
         margin-bottom: 0%;
         margin-right: 0%;
     }

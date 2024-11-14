@@ -364,6 +364,17 @@
 
 @media (min-width: 481px) and (max-width: 1280px) 
 {
+    .videoZona{
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
     .main-container2 {
         position: relative;
         text-align: center;
@@ -373,7 +384,7 @@
 
     .image-top-left2M {
         position: absolute;
-        top: -16%;
+        top: -15%;
         left: -30%;
         width: 80%;
         height: auto;
@@ -446,7 +457,7 @@
     .Titulo44 {
         position: fixed;
         margin-left: 8%;
-        transform: translateY(270%);
+        transform: translateY(280%);
         color: #1b489b;
         font-size: 40px;
         font-family: 'Segoe UI';
@@ -478,6 +489,17 @@
 /* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
 @media (min-width: 414px) and (max-width: 896px)
 {
+    .videoZona{
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 40%;
+        margin-left: -50%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
     .main-container2 {
         position: relative;
         text-align: center;
@@ -601,8 +623,18 @@
 }
 
 /* Estilos para dispositivos móviles de tamaño medio a grande */
-@media (max-width: 480px) and (min-width: 380px) /*and (max-height: 750px)*/
+@media (max-width: 480px) and (min-width: 375px) /*and (max-height: 750px)*/
 {
+    .videoZona{
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 40%;
+        margin-left: -50%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
     .main-container2 {
         position: relative;
         text-align: center;
@@ -652,7 +684,7 @@
     .video-player2 {
         
         width: auto;
-        height: 96%;
+        height: 90%;
         margin-top: 85%;
         margin-left: 5%;
         border: 3px solid #1b489b;
@@ -693,7 +725,7 @@
     .Titulo44 {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(340%);
+        transform: translateY(280%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Segoe UI';
@@ -726,7 +758,7 @@
 }
 
 /* Estilos para dispositivos móviles pequeños */
-@media (min-width: 320px) and (max-width: 374px) and (max-height: 620px)
+@media (min-width: 320px) and (max-width: 374px) 
 {
     .main-container2 {
         position: relative;
@@ -818,7 +850,7 @@
     .Titulo44 {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(340%);
+        transform: translateY(310%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Segoe UI';

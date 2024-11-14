@@ -96,6 +96,17 @@
 
 @media (min-width: 1600px) and (max-width: 2900px)
 {
+    .videoZona{
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 12%;
+        margin-left: -50%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
     .main-container1 {
         position: relative;
         text-align: center;
@@ -142,7 +153,7 @@
     
     .video-player1 {
         width: auto;
-        height: 100%;
+        height: 95%;
         margin-top: 22%;
         margin-left: 5%;
         border: 5px solid #1b489b;
@@ -313,6 +324,17 @@
 
 @media (min-width: 481px) and (max-width: 1280px) 
 {
+    .videoZona{
+        position: absolute;
+        height: 10%;
+        /*width: 100%;*/
+    
+        margin-top: 11.5%;
+        margin-left: -40%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
     .main-container1 {
         position: relative;
         text-align: center;
@@ -386,7 +408,7 @@
 
     .bottom-left-button1 {
         position: absolute;
-        bottom: 5%;
+        bottom: 6%;
         left: 6%;
         cursor: pointer;
         width: 24%;
@@ -515,6 +537,17 @@
 @media (max-width: 480px) and (min-width: 375px)
 {
 
+    .videoZona{
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 10%;
+        margin-left: -50%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
     body{
         max-width: 550px;
         max-height: 700px;
@@ -571,7 +604,7 @@
     
     .video-player1 {
         width: auto;
-        height: 100%;
+        height: 95%;
         margin-top: 14%;
         margin-left: 5%;
         border: 3px solid #1b489b;

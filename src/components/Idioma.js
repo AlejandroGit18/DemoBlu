@@ -4,8 +4,8 @@ import './Idioma.css';
 import SemiCirculoSuperior from './Semicirculo con Logo.png';
 import Boton1 from './Español.png';
 import Boton2 from './English.png';
-import videoSource from './VIDEO_IDIOMA.mp4';
-import VideoZona from './VideoZona_Color2.png';
+import videoSource from './VIDEO 1_ESP.mp4';
+import VideoZona from './POWERED.png';
 
 function Main() {
     const navigate = useNavigate();
@@ -22,10 +22,13 @@ function Main() {
             videoElement.setAttribute('playsInline', true); // Permitir reproducción en línea en iOS
             videoElement.setAttribute('preload', 'metadata'); // Cargar solo metadatos al inicio
         } else {
+            
             // Intentar la reproducción automática en otros dispositivos
             videoElement.play().catch(error => {
                 console.warn("La reproducción automática fue bloqueada:", error);
             });
+
+            videoElement.removeAttribute('autoplay');
         }
 
         const resetTimeout = () => {
@@ -82,10 +85,8 @@ function Main() {
             </div>
 
             {/* Contenedor de VideoZona */}
-            <div className="Div_VideoZona">
-                <p className="Powered">POWERED BY</p>
                 <img src={VideoZona} alt="VideoZona" className="videoZona" />
-            </div>
+            
         </div>
     );
 }

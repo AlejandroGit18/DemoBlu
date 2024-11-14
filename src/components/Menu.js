@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import videoSource from './VIDEO_MENU.mp4';
+import videoSource from './VIDEO 3_ESP.mp4';
 import Boton1 from './Bebidas.png';
 import Boton2 from './Comida.png';
 import ImageTopLeft from './Semicirculo con Logo.png';
@@ -8,6 +8,7 @@ import ImageBottomLeft from './Semicirculo.png';
 import BotonReproducir from './Reproduci de nueva.png';
 import BotonRegresar from './Regresar.png';
 import './Menu.css';
+import VideoZona from './POWERED.png';
 
 function MainMenu() {
     const navigate = useNavigate();
@@ -72,6 +73,7 @@ function MainMenu() {
 
             {/* Imagen en la parte inferior derecha */}
             <img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left2" />
+            <img src={VideoZona} alt="VideoZona" className="videoZona" />
             </div>
     );
 }

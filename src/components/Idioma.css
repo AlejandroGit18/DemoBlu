@@ -6,7 +6,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     background: url('Fondo A.png') no-repeat center center;
     background-size: cover;
-    /* background-attachment: fixed; */ /* Eliminar o cambiar a scroll/local */
+    background-attachment: fixed;
+    /*background-attachment: local;*/ /* Eliminar o cambiar a scroll/local */
 }
 
 
@@ -109,11 +110,21 @@ body {
 
 @media (min-width: 1600px) and (max-width: 2900px)
 {
+    .videoZona{
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 170%;
+        margin-left: 70%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
 /* Contenedor principal */
 .main-containerI {
     width: 100vw;
     height: 100vh;
-    position:fixed;
+    position:absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,14 +152,14 @@ body {
     border-radius: 10px;
     overflow: hidden;
     height: auto;
-    width: 465%;
+    width: 150%;
 
-    /*filter: blur(50px); /* Aplica el efecto de desenfoque */
+    filter: blur(10px); /* Aplica el efecto de desenfoque */
 
-    margin-top: 0%;
+    margin-top: 20%;
     margin-right: 0%;
     margin-bottom: 0%;
-    margin-left: -182%;
+    margin-left: -25%;
 
 }
 
@@ -274,6 +285,18 @@ body {
 }
 
 @media (min-width: 481px) and (max-width: 1280px) {
+
+    .videoZona{
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 110%;
+        margin-left: 75%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
     /* Contenedor principal */
     .main-containerI {
         width: 100vw;
@@ -304,14 +327,14 @@ body {
         border-radius: 10px;
         overflow: hidden;
         height: auto;
-        width: 100%;
+        width: 60%;
 
         filter: blur(5px); /* Aplica el efecto de desenfoque */
 
         margin-top: 0%;
         margin-right: 0%;
         margin-bottom: 0%;
-        margin-left: 2%;
+        margin-left: 20%;
     }
 
     /* Botón de interacción debajo del video */
@@ -351,33 +374,13 @@ body {
 @media (min-width: 414px) and (max-width: 896px)
 {
 
-    .Div_VideoZona{
-        position: absolute;
-        height: auto;
-        width: 100%;
-        margin-top: 200%;
-        margin-left: 100%;
-    }
-    
-    .Powered {
-        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
-        font-weight: bold;
-        font-size: 1em; /* Ajusta el tamaño según lo necesites */
-        color: #ffffff;
-        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
-        text-transform: uppercase;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
-        position: relative;
-        margin-bottom: 2%;
-    }
-    
     .videoZona{
         position: absolute;
-        height: 150%;
+        height: 15%;
         /*width: 100%;*/
     
-        margin-top: 0%;
-        margin-left: 0%;
+        margin-top: 160%;
+        margin-left: 70%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
@@ -467,34 +470,13 @@ body {
 @media (max-width: 480px) and (min-width: 375px)
 {
 
-    .Div_VideoZona{
-        position: absolute;
-        height: auto;
-        width: 100%;
-        margin-top: 140%;
-        margin-left: 120%;
-    }
-    
-    .Powered {
-        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
-        font-weight: bold;
-        font-size: 1em; /* Ajusta el tamaño según lo necesites */
-        color: #1b489b;
-        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
-        text-transform: uppercase;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
-        position: relative;
-        margin-bottom: 2%;
-        margin-left: 12px;
-    }
-    
     .videoZona{
         position: absolute;
-        height: 150%;
+        height: 15%;
         /*width: 100%;*/
     
-        margin-top: 0%;
-        margin-left: 0%;
+        margin-top: 160%;
+        margin-left: 70%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
@@ -584,33 +566,13 @@ body {
 @media (min-width: 320px) and (max-width: 374px)
 {
 
-    .Div_VideoZona{
-        position: absolute;
-        height: auto;
-        width: 100%;
-        margin-top: 130%;
-        margin-left: 130%;
-    }
-    
-    .Powered {
-        font-family: 'Helvetica', 'Arial', sans-serif; /* O la tipografía que se asemeje más */
-        font-weight: bold;
-        font-size: 1em; /* Ajusta el tamaño según lo necesites */
-        color: #ffffff;
-        letter-spacing: 0.1em; /* Espaciado entre letras para un estilo similar */
-        text-transform: uppercase;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
-        position: relative;
-        margin-bottom: 2%;
-    }
-    
     .videoZona{
         position: absolute;
-        height: 150%;
+        height: 15%;
         /*width: 100%;*/
     
-        margin-top: 0%;
-        margin-left: 0%;
+        margin-top: 160%;
+        margin-left: 70%;
         margin-bottom: 0%;
         margin-right: 0%;
     }

@@ -5,8 +5,8 @@ import SemiCirculoSuperior from './Semicirculo con Logo.png';
 import Boton from './Interactua Conmigo.png';
 import TextoSuperior from './movilQr.png';
 import qrCode from './QR1.png';
-import videoSource from './VIDEO_IDIOMA.mp4';
-import VideoZona from './VideoZona_white.png';
+import videoSource from './VIDEO 1_ESP.mp4';
+import VideoZona from './POWERED.png';
 
 function Main() {
     const navigate = useNavigate();
@@ -69,10 +69,8 @@ function Main() {
                 />
             </div>
 
-            <div className="Div_VideoZona">
-                <p className="Powered">POWERED BY</p>
-                <img src={VideoZona} alt="VideoZona" className="videoZona" />
-            </div>
+            <img src={VideoZona} alt="VideoZona" className="videoZona" />
+           
         </div>
     );
 }
