@@ -5,7 +5,7 @@ import SemiCirculoSuperior from './Semicirculo con Logo.png';
 import Boton1 from './Español.png';
 import Boton2 from './English.png';
 import videoSource from './VIDEO_IDIOMA.mp4';
-import VideoZona from './VideoZona_white.png';
+import VideoZona from './VideoZona_Color2.png';
 
 function Main() {
     const navigate = useNavigate();
