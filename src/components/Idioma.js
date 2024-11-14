@@ -13,9 +13,20 @@ function Main() {
 
     useEffect(() => {
         const videoElement = videoRef.current;
-        videoElement.play().catch(error => {
-            console.warn("La reproducción automática fue bloqueada:", error);
-        });
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+        if (isIOS) {
+            // Ajustes específicos para iOS
+            videoElement.removeAttribute('autoplay'); // Evitar reproducción automática en iOS
+            videoElement.setAttribute('controls', true); // Mostrar controles para el usuario
+            videoElement.setAttribute('playsInline', true); // Permitir reproducción en línea en iOS
+            videoElement.setAttribute('preload', 'metadata'); // Cargar solo metadatos al inicio
+        } else {
+            // Intentar la reproducción automática en otros dispositivos
+            videoElement.play().catch(error => {
+                console.warn("La reproducción automática fue bloqueada:", error);
+            });
+        }
 
         const resetTimeout = () => {
             videoElement.currentTime = 0;
@@ -45,10 +56,12 @@ function Main() {
             {/* Contenedor del video */}
             <div className="video-container1I">
                 <video
-                    ref={videoRef}              
+                    ref={videoRef}
                     className="video-player111I"
-                    muted 
-                    src={videoSource}              
+                    muted
+                    src={videoSource}
+                    preload="metadata"
+                    playsInline
                 />
             </div>
 
