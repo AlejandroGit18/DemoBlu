@@ -4,8 +4,9 @@
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-    background: url('Fondo A.png') no-repeat center center fixed;
+    background: url('Fondo A.png') no-repeat center center;
     background-size: cover;
+    /* background-attachment: fixed; */ /* Eliminar o cambiar a scroll/local */
 }
 
 
