@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import videoSource from './VIDEO_OPINION.mp4';
+import videoSource from './VIDEO 12_ESP.mp4';
 import Boton1 from './Realiza la encuesta.png';
 import ImageTopLeft from './Semicirculo con Logo.png';
 import ImageBottomLeft from './Semicirculo.png';
@@ -28,6 +28,8 @@ function MainMenu() {
     };*/
 
     return (
+        <>
+            <div className="background-containerMAIN"></div> {/* Fondo agregado */}
         <div className="main-container7">
             {/* Imagen superior izquierda */}
             <img src={ImageTopLeft} alt="Top Left" className="image-top-left7" />
@@ -80,6 +82,7 @@ function MainMenu() {
             {/* Imagen en la parte inferior derecha */}
             <img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left7" />
             </div>
+        </>
     );
 }
 

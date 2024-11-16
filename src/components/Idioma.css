@@ -884,7 +884,31 @@
 /* Estilos para dispositivos móviles de tamaño medio a grande */
 @media (max-width: 480px) and (min-width: 375px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
 
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+    
     .videoZonaIDIOMA{
         position: absolute;
         height: 20%;

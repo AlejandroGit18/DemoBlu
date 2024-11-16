@@ -26,6 +26,8 @@ function MainMenu() {
     };
     
     return (
+        <>
+            <div className="background-containerMAIN"></div> {/* Fondo agregado */}
         <div className="main-containerMENU">
             {/* Imagen superior izquierda */}
             <img src={ImageTopLeft} alt="Top Left" className="image-top-left2MENU" />
@@ -74,6 +76,7 @@ function MainMenu() {
             <img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left2MENU" />
             <img src={VideoZona} alt="VideoZona" className="videoZonaMENU" />
             </div>
+            </>
     );
 }
 

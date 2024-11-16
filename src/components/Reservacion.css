@@ -367,6 +367,31 @@
 /* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
 @media (min-width: 414px) and (max-width: 896px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+
     .main-container7 {
         position: relative;
         text-align: center;
@@ -488,8 +513,33 @@
 }
 
 /* Estilos para dispositivos móviles de tamaño medio a grande */
-@media (max-width: 480px) and (min-width: 375px)
+@media (max-width: 429px) and (min-width: 375px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+
     .main-container7 {
         position: relative;
         text-align: center;
@@ -578,7 +628,7 @@
     .Titulo7 {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(320%);
+        transform: translateY(280%);
         color: #1b489b;
         font-size: 22px;
         font-family: 'Segoe UI';
@@ -610,9 +660,183 @@
     
 }
 
+@supports (-webkit-touch-callout: none) {
+@media (max-width: 429px) and (min-width: 375px)
+{
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+
+    .main-container7 {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left7 {
+        position: absolute;
+        top: -12%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right17 {
+        margin-top: 5%;
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 48%;
+        margin-bottom: 0%;
+    }
+    
+    .image-top-right27 {
+        position:fixed;
+        top: 2%;
+        margin-left: 89%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 10%;
+        gap: 1%;
+    }
+    
+    .video-wrapper7 {
+        display: absolute;
+        align-items: center;
+        height: 63%;
+        width: 63%;
+        border-radius: 10px;
+        margin-left: -2%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player7 {
+            
+        width: auto;
+        height: 96%;
+        margin-top: 85%;
+        margin-left: 5%;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container7 {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 70%;
+        margin-right: 6%;
+        margin-top: -30%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-15%);
+    }
+    
+    .button-image7 {
+        cursor: pointer;
+        margin-bottom: 0%;
+        width: 120%;
+    }
+    
+    .bottom-left-button7 {
+        position: absolute;
+        bottom: 16%;
+        left: 3%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+
+    .Titulo7 {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(280%);
+        color: #1b489b;
+        font-size: 22px;
+        font-family: 'Quicksand';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button27 {
+        position: absolute;
+        bottom: 16%;
+        left: 36%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+    
+    .image-bottom-left7 {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+        visibility: hidden;
+    }
+    
+    
+}
+}
+
 /* Estilos para dispositivos móviles pequeños */
 @media (min-width: 320px) and (max-width: 374px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+
     .main-container7 {
         position: relative;
         text-align: center;

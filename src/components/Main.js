@@ -57,55 +57,58 @@ function Main() {
     };
 
     return (
-        <div className="main-containerINTERACTUA">
-            {/* Imagen en la parte superior izquierda */}
-            <img
-                src={SemiCirculoSuperior}
-                alt="Logo"
-                className="qr-top-leftINTERACTUA"
-            />
-
-            {/* Imágenes en la parte superior derecha */}
-            <div className="qr-top-rightINTERACTUA">
+        <>
+            <div className="background-containerMAIN"></div> {/* Fondo agregado */}
+            <div className="main-containerINTERACTUA">
+                {/* Imagen en la parte superior izquierda */}
                 <img
-                    src={TextoSuperior}
-                    alt="Texto QR Code"
-                    className="texto-qr-codeINTERACTUA"
+                    src={SemiCirculoSuperior}
+                    alt="Logo"
+                    className="qr-top-leftINTERACTUA"
                 />
+
+                {/* Imágenes en la parte superior derecha */}
+                <div className="qr-top-rightINTERACTUA">
+                    <img
+                        src={TextoSuperior}
+                        alt="Texto QR Code"
+                        className="texto-qr-codeINTERACTUA"
+                    />
+                    <img
+                        src={qrCode}
+                        alt="QR Code"
+                        className="qr-codeINTERACTUA"
+                    />
+                </div>
+
+                {/* Contenedor del video */}
+                <div className="video-containerINTERACTUA">
+                    <video
+                        autoPlay
+                        ref={videoRef}
+                        className="video-player11INTERACTUA"
+                        src={videoSource}
+                    />
+                </div>
+
+                {/* Imagen con acción de navegación como botón debajo del video */}
+                <div className="button-containerINTERACTUA">
+                    <img
+                        src={Boton}
+                        alt="Interact Button"
+                        className="button-imageINTERACTUA"
+                        onClick={handleInteractionClick}
+                    />
+                </div>
+
+                {/* Imagen de VideoZona */}
                 <img
-                    src={qrCode}
-                    alt="QR Code"
-                    className="qr-codeINTERACTUA"
+                    src={VideoZona}
+                    alt="VideoZona"
+                    className="videoZonaINTERACTUA"
                 />
             </div>
-
-            {/* Contenedor del video */}
-            <div className="video-containerINTERACTUA">
-                <video
-                    autoPlay
-                    ref={videoRef}
-                    className="video-player11INTERACTUA"
-                    src={videoSource}
-                />
-            </div>
-
-            {/* Imagen con acción de navegación como botón debajo del video */}
-            <div className="button-containerINTERACTUA">
-                <img
-                    src={Boton}
-                    alt="Interact Button"
-                    className="button-imageINTERACTUA"
-                    onClick={handleInteractionClick}
-                />
-            </div>
-
-            {/* Imagen de VideoZona */}
-            <img
-                src={VideoZona}
-                alt="VideoZona"
-                className="videoZonaINTERACTUA"
-            />
-        </div>
+        </>
     );
 }
 

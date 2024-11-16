@@ -1,3 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #d1dbe8; /* Color de fondo general */
+    position: relative; /* Asegura que los elementos puedan posicionarse relativos al body */
+    overflow: hidden;
+    height: 100vh;
+}
+
+/* Contenedor de fondo con manchas difuminadas */
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Envía el fondo detrás de todos los elementos */
+    overflow: hidden;
+    background: radial-gradient(circle at 15% 15%, rgba(69, 147, 241, 0.2), transparent),
+                radial-gradient(circle at 20% 20%, rgba(151, 173, 212, 0.2), transparent);
+}
+
 
 @media (min-width: 3000px) 
 {
@@ -638,6 +660,31 @@
 /* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
 @media (min-width: 414px) and (max-width: 460) and (max-height: 900px) and (min-height: 780px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+    
     .main-container3BEBIDAS {
         position: relative;
         text-align: center;
@@ -767,6 +814,31 @@
 /* Estilos para dispositivos móviles de tamaño medio a grande */
 @media (max-width: 435px) and (min-width: 430px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+
     .main-container3BEBIDAS {
         position: relative;
         text-align: center;
@@ -896,6 +968,31 @@
 /* Estilos para dispositivos móviles de tamaño medio a grande */
 @media (max-width: 429px) and (min-width: 375px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+
     .main-container3BEBIDAS {
         position: relative;
         text-align: center;
@@ -905,7 +1002,7 @@
     
     .image-top-left3BEBIDAS {
         position: absolute;
-        top: 30%;
+        top: -11%;
         left: -35%;
         width: 90%;
         height: auto;
@@ -938,7 +1035,7 @@
         position: absolute;
         display: absolute;
         align-items: center;
-        height: 65%;
+        height: 62%;
         width: 65%;
         border-radius: 10px;
         margin-left: 0%;
@@ -952,7 +1049,7 @@
         width: auto;
         height: 100%;
         margin-top: 50%;
-        margin-left: 0%;
+        margin-left: 2%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
@@ -991,7 +1088,7 @@
     .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(340%);
+        transform: translateY(280%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Segoe UI';
@@ -1026,6 +1123,31 @@
 @supports (-webkit-touch-callout: none) {
 @media (max-width: 429px) and (min-width: 375px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+
     .main-container3BEBIDAS {
         position: relative;
         text-align: center;
@@ -1035,10 +1157,11 @@
     
     .image-top-left3BEBIDAS {
         position: absolute;
-        top: 30%;
+        top: -11%;
         left: -35%;
         width: 90%;
         height: auto;
+        z-index: 9999;
     }
     
     .image-top-right13BEBIDAS{
@@ -1082,7 +1205,7 @@
         width: auto;
         height: 100%;
         margin-top: 50%;
-        margin-left: 0%;
+        margin-left: 2%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
@@ -1116,12 +1239,13 @@
         cursor: pointer;
         width: 30%;
         height: auto;
+        z-index: 9999;
     }
 
     .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(340%);
+        transform: translateY(290%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Segoe UI';
@@ -1138,6 +1262,7 @@
         cursor: pointer;
         width: 30%;
         height: auto;
+        z-index: 9999;
     }
     
     .image-bottom-left3BEBIDAS {
@@ -1157,6 +1282,31 @@
 /* Estilos para dispositivos móviles pequeños */
 @media (min-width: 320px) and (max-width: 374px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+
     .main-container3BEBIDAS {
         position: relative;
         text-align: center;

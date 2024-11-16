@@ -36,6 +36,8 @@ function MainMenu() {
     };
 
     return (
+        <>
+            <div className="background-containerMAIN"></div> {/* Fondo agregado */}
         <div className="main-container3">
             {/* Imagen superior izquierda */}
             <img src={ImageTopLeft} alt="Top Left" className="image-top-left3" />
@@ -44,7 +46,7 @@ function MainMenu() {
             <img src={ImageTopRight1} alt="Top Right 1" className="image-top-right13" onClick={downloadPdf}/>
             <img src={ImageTopRight2} alt="Top Right 2" className="image-top-right23"    />
 
-            <p class="Titulo46"></p>
+            <p class="Titulo46">Comida</p>
 
             {/* Contenedor de video */}
             <div className="video-wrapper3">
@@ -83,6 +85,8 @@ function MainMenu() {
             {/* Imagen en la parte inferior derecha */}
             {/*<img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left3" />*/}
             </div>
+            
+        </>
     );
 }
 

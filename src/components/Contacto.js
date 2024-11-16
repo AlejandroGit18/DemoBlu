@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import videoSource from './VIDEO_CONTACTOS.mp4';
+import videoSource from './VIDEO 9_ESP.mp4';
 import ImageTopLeft from './Semicirculo con Logo.png';
 import BotonReproducir from './Reproduci de nueva.png';
 import BotonRegresar from './Regresar.png';
@@ -23,6 +23,8 @@ function MainMenu() {
     
 
     return (
+        <>
+            <div className="background-containerMAIN"></div> {/* Fondo agregado */}
         <div className="main-container6">
             {/* Imagen superior izquierda */}
             <img src={ImageTopLeft} alt="Top Left" className="image-top-left6" />
@@ -70,6 +72,7 @@ function MainMenu() {
             {/* Imagen en la parte inferior derecha */}
             {/*<img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left3" />*/}
             </div>
+        </>
     );
 }
 
