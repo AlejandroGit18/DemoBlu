@@ -1,94 +1,42 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Idioma.css';
-import SemiCirculoSuperior from './Semicirculo con Logo.png';
+import imageSource from './ANAI.JPG'; // Reemplaza con la imagen que quieres usar
 import Boton1 from './Español.png';
 import Boton2 from './English.png';
-import videoSource from './VIDEO 1_ESP.mp4';
+import ImageTopLeft from './Semicirculo con Logo.png';
+import './Idioma.css';
 import VideoZona from './POWERED.png';
 
-function Main() {
+function MainMenu() {
     const navigate = useNavigate();
-    const videoRef = useRef(null);
 
-    useEffect(() => {
-        const videoElement = videoRef.current;
-        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-
-        if (isIOS) {
-            // Ajustes específicos para iOS
-            videoElement.removeAttribute('autoplay'); // Evitar reproducción automática en iOS
-            videoElement.setAttribute('controls', true); // Mostrar controles para el usuario
-            videoElement.setAttribute('playsInline', true); // Permitir reproducción en línea en iOS
-            videoElement.setAttribute('preload', 'metadata'); // Cargar solo metadatos al inicio
-        } else {
-            
-            // Intentar la reproducción automática en otros dispositivos
-            videoElement.play().catch(error => {
-                console.warn("La reproducción automática fue bloqueada:", error);
-            });
-
-            videoElement.removeAttribute('autoplay');
-        }
-
-        const resetTimeout = () => {
-            videoElement.currentTime = 0;
-            videoElement.play().catch(error => {
-                console.error("Error al intentar reproducir el video automáticamente:", error);
-            });
-        };
-
-        videoElement.addEventListener('ended', resetTimeout);
-
-        return () => {
-            videoElement.removeEventListener('ended', resetTimeout);
-        };
-    }, []);
-
-    const handleInteractionClick = () => {
-        setTimeout(() => {
-            navigate('/Interactua');
-        }, 1500);
+    const handleNavigation = (path) => {
+        navigate(path);
     };
 
     return (
-        <div className="main-containerI">
-            {/* Imagen en la parte superior izquierda */}
-            <img src={SemiCirculoSuperior} alt="QR Code" className="qr-top-leftI" />
+        <div className="main-containerIDIOMA">
+            {/* Imagen superior izquierda */}
+            <img src={ImageTopLeft} alt="Top Left" className="image-top-leftIDIOMA" />
 
-            {/* Contenedor del video */}
-            <div className="video-container1I">
-                <video
-                    ref={videoRef}
-                    className="video-player111I"
-                    muted
-                    src={videoSource}
-                    preload="metadata"
-                    playsInline
+            {/* Imagen en lugar de video */}
+            <div className="video-wrapperIDIOMA">
+                <img
+                    src={imageSource}
+                    alt="Main Display"
+                    className="video-playerIDIOMA"
                 />
             </div>
 
-            {/* Imágenes de botones para interacción */}
-            <div className="button-container1I">
-                <img
-                    src={Boton1}
-                    alt="Interact Button"
-                    className="interact-button1I"
-                    onClick={handleInteractionClick}
-                />
-                <img
-                    src={Boton2}
-                    alt="Interact Button"
-                    className="interact-button2I"
-                    onClick={handleInteractionClick}
-                />
+            {/* Botones a la derecha del contenedor de la imagen */}
+            <div className="button-containerIDIOMA">
+                <img src={Boton1} alt="Button 1" onClick={() => handleNavigation('/Interactua')} className="button-imageIDIOMA" />
+                <img src={Boton2} alt="Button 2" onClick={() => handleNavigation('/Horarios')} className="button-imageIDIOMA" />
             </div>
 
-            {/* Contenedor de VideoZona */}
-                <img src={VideoZona} alt="VideoZona" className="videoZona" />
-            
+            <img src={VideoZona} alt="VideoZona" className="videoZonaIDIOMA" />
         </div>
     );
 }
 
-export default Main;
+export default MainMenu;

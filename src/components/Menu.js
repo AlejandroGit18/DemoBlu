@@ -25,33 +25,32 @@ function MainMenu() {
         }
     };
     
-
     return (
-        <div className="main-container2">
+        <div className="main-containerMENU">
             {/* Imagen superior izquierda */}
-            <img src={ImageTopLeft} alt="Top Left" className="image-top-left2M" />
+            <img src={ImageTopLeft} alt="Top Left" className="image-top-left2MENU" />
 
             {/* Imágenes superior derecha */}
             {/*<img src={ImageTopRight1} alt="Top Right 1" className="image-top-right12" />
             <img src={ImageTopRight2} alt="Top Right 2" className="image-top-right22" />*/}
 
-            <p class="Titulo44">Menú</p>
+            <p class="Titulo44MENU">Menú</p>
 
             {/* Contenedor de video */}
-            <div className="video-wrapper2">
+            <div className="video-wrapper2MENU">
                 <video
                     ref={videoRef}
                     src={videoSource}
                     
                     autoPlay
-                    className="video-player2"
+                    className="video-player2MENU"
                 />
             </div>
 
             {/* Botones a la derecha del contenedor del video */}
-            <div className="button-container2">
-                <img src={Boton1} alt="Button 1" onClick={() => handleNavigation('/bebida')} className="button-image2" />
-                <img src={Boton2} alt="Button 2" onClick={() => handleNavigation('/comida')} className="button-image2" />
+            <div className="button-container2MENU">
+                <img src={Boton1} alt="Button 1" onClick={() => handleNavigation('/bebida')} className="button-image2MENU" />
+                <img src={Boton2} alt="Button 2" onClick={() => handleNavigation('/comida')} className="button-image2MENU" />
              </div>
 
             {/* Botón inferior izquierdo debajo del contenedor del video */}
@@ -59,7 +58,7 @@ function MainMenu() {
                 src={BotonReproducir}
                 alt="Bottom Left Button"
                 onClick={repeatVideo}
-                className="bottom-left-button2"
+                className="bottom-left-button2MENU"
             />
 
             {/* Botón inferior izquierdo debajo del contenedor del video */}
@@ -67,13 +66,13 @@ function MainMenu() {
                 src={BotonRegresar}
                 alt="Bottom Left Button"
                 onClick={() => handleNavigation('/Main')}
-                className="bottom-left-button22"
+                className="bottom-left-button22MENU"
             />
 
 
             {/* Imagen en la parte inferior derecha */}
-            <img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left2" />
-            <img src={VideoZona} alt="VideoZona" className="videoZona" />
+            <img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left2MENU" />
+            <img src={VideoZona} alt="VideoZona" className="videoZonaMENU" />
             </div>
     );
 }

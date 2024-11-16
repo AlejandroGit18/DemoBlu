@@ -1,13 +1,14 @@
+
 @media (min-width: 3000px) 
 {
-    .main-container3 {
+    .main-container3BEBIDAS {
         position: relative;
         text-align: center;
         height: 100vh;
         width: 100vh;
     }
     
-    .image-top-left3 {
+    .image-top-left3BEBIDAS {
         position: absolute;
         top: -12%;
         left: -35%;
@@ -15,7 +16,7 @@
         height: auto;
     }
     
-    .image-top-right13 {
+    .image-top-right13BEBIDAS{
         position:fixed;
         top: 58%;
         margin-left: 74%;
@@ -26,7 +27,7 @@
         gap: 1%;
     }
     
-    .image-top-right23 
+    .image-top-right23BEBIDAS
     {
         position:fixed;
         top: 41%;
@@ -38,7 +39,7 @@
         gap: 1%;
     }
     
-    .video-wrapper3 {
+    .video-wrapper3BEBIDAS {
         position: fixed;
         display: flex;
         align-items: center;
@@ -50,7 +51,7 @@
         /*overflow: hidden;*/
     }
     
-    .video-player3 {    
+    .video-player3BEBIDAS {    
         width: 80%;
         height: 96%;
         margin-top: 49%;
@@ -59,7 +60,7 @@
         border-radius: 10px;
     }
     
-    .button-container3 {
+    .button-container3BEBIDAS {
         position: fixed;
         /*top: 50%;*/
         /*margin-right: 0%;*/
@@ -75,13 +76,13 @@
         transform: translateY(-30%);
     }
     
-    .button-image3 {
+    .button-image3BEBIDAS {
         cursor: pointer;
         margin-bottom: 15%;
         width: 100%;
     }
     
-    .bottom-left-button3 {
+    .bottom-left-button3BEBIDAS {
         position: absolute;
         bottom:6%;
         left: 3%;
@@ -90,7 +91,7 @@
         height: auto;
     }
 
-    .Titulo45 {
+    .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
         margin-bottom: 0%;
@@ -105,7 +106,7 @@
         text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
     }
     
-    .bottom-left-button23 {
+    .bottom-left-button23BEBIDAS {
         position: fixed;
         bottom: 6%;
         left: 30%;
@@ -114,7 +115,7 @@
         height: auto;
     }
     
-    .image-bottom-left3 {
+    .image-bottom-left3BEBIDAS {
         position: fixed;
         top: 92.5%;
         bottom: 0%;
@@ -128,25 +129,25 @@
 
 @media (min-width: 1600px) and (max-width: 2900px)
 {
-    .main-container3 {
+    .main-container3BEBIDAS {
         position: relative;
         text-align: center;
         height: 100vh;
         width: auto;
     }
     
-    .image-top-left3 {
+    .image-top-left3BEBIDAS {
         position: absolute;
-        top: -13%;
-        left: -35%;
+        top: 20%;
+        left: 5%;
         width: 90%;
         height: auto;
     }
     
-    .image-top-right13 {
+    .image-top-right13BEBIDAS{
         position:fixed;
-        top: 58%;
-        margin-left: 74%;
+        top: 54%;
+        margin-left: 76%;
         margin-right: 0%;
         margin-bottom: 0%;
         display: flex;
@@ -154,11 +155,11 @@
         gap: 1%;
     }
     
-    .image-top-right23 
+    .image-top-right23BEBIDAS
     {
         position:fixed;
         top: 41%;
-        margin-left: 74%;
+        margin-left: 76%;
         margin-right: 0%;
         margin-bottom: 0%;
         display: flex;
@@ -166,7 +167,7 @@
         gap: 1%;
     }
     
-    .video-wrapper3 {
+    .video-wrapper3BEBIDAS {
         position: fixed;
         display: flex;
         align-items: center;
@@ -177,17 +178,17 @@
         /*overflow: hidden;*/
     }
     
-    .video-player3 {
+    .video-player3BEBIDAS {
         
         width: auto;
-        height: 96%;
-        margin-top: 49%;
+        height: 89%;
+        margin-top: 70%;
         margin-left: 5%;
         border: 15px solid #1b489b;
         border-radius: 10px;
     }
     
-    .button-container3 {
+    .button-container3BEBIDAS {
         position: fixed;
         /*top: 50%;*/
         /*margin-right: 0%;*/
@@ -203,22 +204,22 @@
         transform: translateY(-30%);
     }
     
-    .button-image3 {
+    .button-image3BEBIDAS {
         cursor: pointer;
         margin-bottom: 15%;
         width: 110%;
     }
     
-    .bottom-left-button3 {
+    .bottom-left-button3BEBIDAS {
         position: absolute;
         bottom:6%;
-        left: 3%;
+        left: 15%;
         cursor: pointer;
         width: 27%;
         height: auto;
     }
 
-    .Titulo45 {
+    .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
         transform: translateY(260%);
@@ -231,7 +232,7 @@
         text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
     }
     
-    .bottom-left-button23 {
+    .bottom-left-button23BEBIDAS {
         position: fixed;
         bottom: 6%;
         left: 32%;
@@ -240,7 +241,7 @@
         height: auto;
     }
     
-    .image-bottom-left3 {
+    .image-bottom-left3BEBIDAS {
         position: fixed;
         top: 92.5%;
         bottom: 0%;
@@ -252,16 +253,16 @@
     
 }
 
-@media (min-width: 1281px) and (max-width: 1599px)
+@media (min-width: 1281px) and (max-width: 1599px) 
 {
-    .main-container3 {
+    .main-container3BEBIDAS {
         position: relative;
         text-align: center;
         height: 100vh;
         width: auto;
     }
     
-    .image-top-left3 {
+    .image-top-left3BEBIDAS {
         position: absolute;
         top: -15%;
         left: -35%;
@@ -269,7 +270,7 @@
         height: auto;
     }
     
-    .image-top-right13 {
+    .image-top-right13BEBIDAS{
         position:fixed;
         top: 58%;
         margin-left: 74%;
@@ -280,7 +281,7 @@
         gap: 1%;
     }
     
-    .image-top-right23 
+    .image-top-right23BEBIDAS
     {
         position:fixed;
         top: 41%;
@@ -292,7 +293,7 @@
         gap: 1%;
     }
     
-    .video-wrapper3 {
+    .video-wrapper3BEBIDAS {
         position: fixed;
         display: flex;
         align-items: center;
@@ -303,7 +304,7 @@
         /*overflow: hidden;*/
     }
     
-    .video-player3 {
+    .video-player3BEBIDAS {
         
         width: auto;
         height: 96%;
@@ -313,7 +314,7 @@
         border-radius: 10px;
     }
     
-    .button-container3 {
+    .button-container3BEBIDAS {
         position: fixed;
         /*top: 50%;*/
         /*margin-right: 0%;*/
@@ -329,13 +330,13 @@
         transform: translateY(-30%);
     }
     
-    .button-image3 {
+    .button-image3BEBIDAS {
         cursor: pointer;
         margin-bottom: 15%;
         width: 110%;
     }
     
-    .bottom-left-button3 {
+    .bottom-left-button3BEBIDAS {
         position: absolute;
         bottom:6%;
         left: 3%;
@@ -344,7 +345,7 @@
         height: auto;
     }
 
-    .Titulo45 {
+    .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
         transform: translateY(340%);
@@ -357,7 +358,7 @@
         text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
     }
     
-    .bottom-left-button23 {
+    .bottom-left-button23BEBIDAS {
         position: fixed;
         bottom: 6%;
         left: 30%;
@@ -366,7 +367,7 @@
         height: auto;
     }
     
-    .image-bottom-left3 {
+    .image-bottom-left3BEBIDAS {
         position: fixed;
         top: 92.5%;
         bottom: 0%;
@@ -378,16 +379,16 @@
     
 }
 
-@media (min-width: 481px) and (max-width: 1280px) 
+@media (min-width: 481px) and (max-width: 1280px) and (max-height: 1500px)
 {
-    .main-container3 {
+    .main-container3BEBIDAS {
         position: relative;
         text-align: center;
         height: 100vh;
         width: auto;
     }
     
-    .image-top-left3 {
+    .image-top-left3BEBIDAS {
         position: absolute;
         top: -16%;
         left: -35%;
@@ -395,7 +396,7 @@
         height: auto;
     }
     
-    .image-top-right13 {
+    .image-top-right13BEBIDAS{
         position:fixed;
         top: 65%;
         margin-left: 70%;
@@ -406,7 +407,7 @@
         gap: 1%;
     }
     
-    .image-top-right23 
+    .image-top-right23BEBIDAS
     {
         position:fixed;
         top: 41%;
@@ -418,7 +419,7 @@
         gap: 1%;
     }
     
-    .video-wrapper3 {
+    .video-wrapper3BEBIDAS {
         position: fixed;
         display: flex;
         align-items: center;
@@ -430,7 +431,7 @@
         /*overflow: hidden;*/
     }
     
-    .video-player3 {
+    .video-player3BEBIDAS {
         
         width: auto;
         height: 100%;
@@ -440,7 +441,7 @@
         border-radius: 10px;
     }
     
-    .button-container3 {
+    .button-container3BEBIDAS {
         position: fixed;
         /*top: 50%;*/
         /*margin-right: 0%;*/
@@ -456,13 +457,13 @@
         transform: translateY(-30%);
     }
     
-    .button-image3 {
+    .button-image3BEBIDAS {
         cursor: pointer;
         margin-bottom: 15%;
         width: 110%;
     }
     
-    .bottom-left-button3 {
+    .bottom-left-button3BEBIDAS {
         position: absolute;
         bottom: 6%;
         left: 3%;
@@ -471,7 +472,7 @@
         height: auto;
     }
 
-    .Titulo45 {
+    .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
         transform: translateY(350%);
@@ -484,7 +485,7 @@
         text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
     }
     
-    .bottom-left-button23 {
+    .bottom-left-button23BEBIDAS {
         position: fixed;
         bottom: 6%;
         left: 30%;
@@ -493,7 +494,135 @@
         height: auto;
     }
     
-    .image-bottom-left3 {
+    .image-bottom-left3BEBIDAS {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+        visibility: hidden;
+    }
+    
+    
+}
+
+@media (min-width: 481px) and (max-width: 1280px) and (min-height: 1500px)
+{
+    .main-container3BEBIDAS {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left3BEBIDAS {
+        position: absolute;
+        top: -16%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right13BEBIDAS{
+        position:fixed;
+        top: 65%;
+        margin-left: 70%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 25%;
+        gap: 1%;
+    }
+    
+    .image-top-right23BEBIDAS
+    {
+        position:fixed;
+        top: 41%;
+        margin-left: 70%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 25%;
+        gap: 1%;
+    }
+    
+    .video-wrapper3BEBIDAS {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        height: 70%;
+        width: 100%;
+        border-radius: 10px;
+        margin-left: 1%;
+        margin-top: 4%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player3BEBIDAS {
+        
+        width: auto;
+        height: 100%;
+        margin-top: 65%;
+        margin-left: 7%;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container3BEBIDAS {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 73%;
+        margin-right: 4%;
+        margin-top: -35%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-30%);
+    }
+    
+    .button-image3BEBIDAS {
+        cursor: pointer;
+        margin-bottom: 15%;
+        width: 110%;
+    }
+    
+    .bottom-left-button3BEBIDAS {
+        position: absolute;
+        bottom: 6%;
+        left: 3%;
+        cursor: pointer;
+        width: 25%;
+        height: auto;
+    }
+
+    .Titulo45BEBIDAS {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(350%);
+        color: #1b489b;
+        font-size: 40px;
+        font-family: 'Segoe UI';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button23BEBIDAS {
+        position: fixed;
+        bottom: 6%;
+        left: 30%;
+        cursor: pointer;
+        width: 25%;
+        height: auto;
+    }
+    
+    .image-bottom-left3BEBIDAS {
         position: fixed;
         top: 92.5%;
         bottom: 0%;
@@ -507,16 +636,16 @@
 }
 
 /* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
-@media (min-width: 414px) and (max-width: 896px)
+@media (min-width: 414px) and (max-width: 460) and (max-height: 900px) and (min-height: 780px)
 {
-    .main-container3 {
+    .main-container3BEBIDAS {
         position: relative;
         text-align: center;
         height: 100vh;
         width: auto;
     }
     
-    .image-top-left3 {
+    .image-top-left3BEBIDAS {
         position: absolute;
         top: -10%;
         left: -35%;
@@ -524,7 +653,7 @@
         height: auto;
     }
     
-    .image-top-right13 {
+    .image-top-right13BEBIDAS{
         position:fixed;
         top: 54%;
         margin-left: 73%;
@@ -535,7 +664,7 @@
         gap: 1%;
     }
     
-    .image-top-right23 
+    .image-top-right23BEBIDAS
     {
         position:fixed;
         top: 41%;
@@ -547,7 +676,7 @@
         gap: 1%;
     }
     
-    .video-wrapper3 {
+    .video-wrapper3BEBIDAS {
         position: fixed;
         display: flex;
         align-items: center;
@@ -559,17 +688,17 @@
         /*overflow: hidden;*/
     }
     
-    .video-player3 {
+    .video-player3BEBIDAS {
         
         width: auto;
         height: 90%;
-        margin-top: 49%;
+        margin-top: 60%;
         margin-left: 5%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
     
-    .button-container3 {
+    .button-container3BEBIDAS {
         position: fixed;
         /*top: 50%;*/
         /*margin-right: 0%;*/
@@ -585,13 +714,13 @@
         transform: translateY(-30%);
     }
     
-    .button-image3 {
+    .button-image3BEBIDAS {
         cursor: pointer;
         margin-bottom: 15%;
         width: 110%;
     }
     
-    .bottom-left-button3 {
+    .bottom-left-button3BEBIDAS {
         position: absolute;
         bottom: 22%;
         left: 3%;
@@ -600,7 +729,7 @@
         height: auto;
     }
 
-    .Titulo45 {
+    .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
         transform: translateY(340%);
@@ -613,7 +742,7 @@
         text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
     }
     
-    .bottom-left-button23 {
+    .bottom-left-button23BEBIDAS {
         position: fixed;
         bottom: 22%;
         left: 35%;
@@ -622,7 +751,7 @@
         height: auto;
     }
     
-    .image-bottom-left3 {
+    .image-bottom-left3BEBIDAS {
         position: fixed;
         top: 92.5%;
         bottom: 0%;
@@ -636,16 +765,16 @@
 }
 
 /* Estilos para dispositivos móviles de tamaño medio a grande */
-@media (max-width: 480px) and (min-width: 375px)
+@media (max-width: 435px) and (min-width: 430px)
 {
-    .main-container3 {
+    .main-container3BEBIDAS {
         position: relative;
         text-align: center;
         height: 100vh;
         width: auto;
     }
     
-    .image-top-left3 {
+    .image-top-left3BEBIDAS {
         position: absolute;
         top: -12%;
         left: -35%;
@@ -653,7 +782,7 @@
         height: auto;
     }
     
-    .image-top-right13 {
+    .image-top-right13BEBIDAS{
         position:fixed;
         top: 58%;
         margin-left: 73%;
@@ -664,7 +793,7 @@
         gap: 1%;
     }
     
-    .image-top-right23 
+    .image-top-right23BEBIDAS
     {
         position:fixed;
         top: 41%;
@@ -676,7 +805,7 @@
         gap: 1%;
     }
     
-    .video-wrapper3 {
+    .video-wrapper3BEBIDAS {
         position: absolute;
         display: absolute;
         align-items: center;
@@ -688,17 +817,17 @@
         /*overflow: hidden;*/
     }
     
-    .video-player3 {
+    .video-player3BEBIDAS {
         
         width: auto;
         height: 90%;
-        margin-top: 49%;
+        margin-top: 70%;
         margin-left: 5%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
     
-    .button-container3 {
+    .button-container3BEBIDAS {
         position: fixed;
         /*top: 50%;*/
         /*margin-right: 0%;*/
@@ -714,13 +843,13 @@
         transform: translateY(-30%);
     }
     
-    .button-image3 {
+    .button-image3BEBIDAS {
         cursor: pointer;
         margin-bottom: 15%;
         width: 110%;
     }
     
-    .bottom-left-button3 {
+    .bottom-left-button3BEBIDAS {
         position: absolute;
         bottom: 12%;
         left: 3%;
@@ -729,7 +858,7 @@
         height: auto;
     }
 
-    .Titulo45 {
+    .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
         transform: translateY(340%);
@@ -742,7 +871,7 @@
         text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
     }
     
-    .bottom-left-button23 {
+    .bottom-left-button23BEBIDAS {
         position: absolute;
         bottom: 12%;
         left: 35%;
@@ -751,7 +880,7 @@
         height: auto;
     }
     
-    .image-bottom-left3 {
+    .image-bottom-left3BEBIDAS {
         position: fixed;
         top: 92.5%;
         bottom: 0%;
@@ -764,25 +893,25 @@
     
 }
 
-/* Estilos para dispositivos móviles pequeños */
-@media (min-width: 320px) and (max-width: 374px)
+/* Estilos para dispositivos móviles de tamaño medio a grande */
+@media (max-width: 429px) and (min-width: 375px)
 {
-    .main-container3 {
+    .main-container3BEBIDAS {
         position: relative;
         text-align: center;
         height: 100vh;
         width: auto;
     }
     
-    .image-top-left3 {
+    .image-top-left3BEBIDAS {
         position: absolute;
-        top: -12%;
+        top: 30%;
         left: -35%;
         width: 90%;
         height: auto;
     }
     
-    .image-top-right13 {
+    .image-top-right13BEBIDAS{
         position:fixed;
         top: 58%;
         margin-left: 73%;
@@ -793,7 +922,7 @@
         gap: 1%;
     }
     
-    .image-top-right23 
+    .image-top-right23BEBIDAS
     {
         position:fixed;
         top: 41%;
@@ -805,29 +934,30 @@
         gap: 1%;
     }
     
-    .video-wrapper3 {
-        position: fixed;
-        display: flex;
+    .video-wrapper3BEBIDAS {
+        position: absolute;
+        display: absolute;
         align-items: center;
         height: 65%;
-        width: 70%;
+        width: 65%;
         border-radius: 10px;
-        margin-left: -2%;
-        margin-top: 12%;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
         /*overflow: hidden;*/
     }
     
-    .video-player3 {
+    .video-player3BEBIDAS {
         
         width: auto;
         height: 100%;
-        margin-top: 49%;
-        margin-left: 5%;
+        margin-top: 50%;
+        margin-left: 0%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
     
-    .button-container3 {
+    .button-container3BEBIDAS {
         position: fixed;
         /*top: 50%;*/
         /*margin-right: 0%;*/
@@ -843,22 +973,22 @@
         transform: translateY(-30%);
     }
     
-    .button-image3 {
+    .button-image3BEBIDAS {
         cursor: pointer;
         margin-bottom: 15%;
         width: 110%;
     }
     
-    .bottom-left-button3 {
+    .bottom-left-button3BEBIDAS {
         position: absolute;
-        bottom: 15%;
+        bottom: 12%;
         left: 3%;
         cursor: pointer;
         width: 30%;
         height: auto;
     }
 
-    .Titulo45 {
+    .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
         transform: translateY(340%);
@@ -871,7 +1001,267 @@
         text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
     }
     
-    .bottom-left-button23 {
+    .bottom-left-button23BEBIDAS {
+        position: absolute;
+        bottom: 12%;
+        left: 35%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+    
+    .image-bottom-left3BEBIDAS {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+        visibility: hidden;
+    }
+    
+    
+}
+
+@supports (-webkit-touch-callout: none) {
+@media (max-width: 429px) and (min-width: 375px)
+{
+    .main-container3BEBIDAS {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left3BEBIDAS {
+        position: absolute;
+        top: 30%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right13BEBIDAS{
+        position:fixed;
+        top: 58%;
+        margin-left: 73%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 25%;
+        gap: 1%;
+    }
+    
+    .image-top-right23BEBIDAS
+    {
+        position:fixed;
+        top: 41%;
+        margin-left: 73%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 25%;
+        gap: 1%;
+    }
+    
+    .video-wrapper3BEBIDAS {
+        position: absolute;
+        display: absolute;
+        align-items: center;
+        height: 65%;
+        width: 65%;
+        border-radius: 10px;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player3BEBIDAS {
+        
+        width: auto;
+        height: 100%;
+        margin-top: 50%;
+        margin-left: 0%;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container3BEBIDAS {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 73%;
+        margin-right: 4%;
+        margin-top: -35%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-30%);
+    }
+    
+    .button-image3BEBIDAS {
+        cursor: pointer;
+        margin-bottom: 15%;
+        width: 110%;
+    }
+    
+    .bottom-left-button3BEBIDAS {
+        position: absolute;
+        bottom: 12%;
+        left: 3%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+
+    .Titulo45BEBIDAS {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(340%);
+        color: #1b489b;
+        font-size: 20px;
+        font-family: 'Segoe UI';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button23BEBIDAS {
+        position: absolute;
+        bottom: 12%;
+        left: 35%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+    
+    .image-bottom-left3BEBIDAS {
+        position: fixed;
+        top: 92.5%;
+        bottom: 0%;
+        left: 37%;
+        width: 80%;
+        height: auto;
+        visibility: hidden;
+    }
+    
+    
+}
+}
+
+/* Estilos para dispositivos móviles pequeños */
+@media (min-width: 320px) and (max-width: 374px)
+{
+    .main-container3BEBIDAS {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        width: auto;
+    }
+    
+    .image-top-left3BEBIDAS {
+        position: absolute;
+        top: -12%;
+        left: -35%;
+        width: 90%;
+        height: auto;
+    }
+    
+    .image-top-right13BEBIDAS{
+        position:fixed;
+        top: 58%;
+        margin-left: 73%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 25%;
+        gap: 1%;
+    }
+    
+    .image-top-right23BEBIDAS
+    {
+        position:fixed;
+        top: 41%;
+        margin-left: 73%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        width: 25%;
+        gap: 1%;
+    }
+    
+    .video-wrapper3BEBIDAS {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        height: 65%;
+        width: 70%;
+        border-radius: 10px;
+        margin-left: -2%;
+        margin-top: 12%;
+        /*overflow: hidden;*/
+    }
+    
+    .video-player3BEBIDAS {
+        
+        width: auto;
+        height: 100%;
+        margin-top: 60%;
+        margin-left: 5%;
+        border: 3px solid #1b489b;
+        border-radius: 10px;
+    }
+    
+    .button-container3BEBIDAS {
+        position: fixed;
+        /*top: 50%;*/
+        /*margin-right: 0%;*/
+        /*margin-left: 85%;*/
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50%;
+        margin-left: 73%;
+        margin-right: 4%;
+        margin-top: -35%;
+        /*transform: translateX(82.5%);*/
+        transform: translate(80%);
+        transform: translateY(-30%);
+    }
+    
+    .button-image3BEBIDAS {
+        cursor: pointer;
+        margin-bottom: 15%;
+        width: 110%;
+    }
+    
+    .bottom-left-button3BEBIDAS {
+        position: absolute;
+        bottom: 15%;
+        left: 3%;
+        cursor: pointer;
+        width: 30%;
+        height: auto;
+    }
+
+    .Titulo45BEBIDAS {
+        position: fixed;
+        margin-left: 3%;
+        transform: translateY(340%);
+        color: #1b489b;
+        font-size: 20px;
+        font-family: 'Segoe UI';
+        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+    }
+    
+    .bottom-left-button23BEBIDAS {
         position: fixed;
         bottom: 12%;
         left: 35%;
@@ -880,7 +1270,7 @@
         height: auto;
     }
     
-    .image-bottom-left3 {
+    .image-bottom-left3BEBIDAS {
         position: fixed;
         top: 92.5%;
         bottom: 0%;

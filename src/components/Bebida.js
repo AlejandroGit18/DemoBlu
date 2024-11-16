@@ -35,30 +35,30 @@ function MainMenu() {
     };
 
     return (
-        <div className="main-container3">
-            <img src={ImageTopLeft} alt="Top Left" className="image-top-left3" />
-            <img src={ImageTopRight1} alt="Top Right 1" className="image-top-right13" onClick={downloadPdf}/>
+        <div className="main-container3BEBIDAS">
+            <img src={ImageTopLeft} alt="Top Left" className="image-top-left3BEBIDAS" />
+            <img src={ImageTopRight1} alt="Top Right 1" className="image-top-right13BEBIDAS" onClick={downloadPdf}/>
             <img 
                 src={ImageTopRight2} 
                 alt="Top Right 2" 
-                className="image-top-right23" 
+                className="image-top-right23BEBIDAS" 
                
             />
-            <p className="Titulo45">Bebidas</p>
-            <div className="video-wrapper3">
-                <video ref={videoRef} src={videoSource} autoPlay className="video-player3" />
+            <p className="Titulo45BEBIDAS">Bebidas</p>
+            <div className="video-wrapper3BEBIDAS">
+                <video ref={videoRef} src={videoSource} autoPlay className="video-player3BEBIDAS" />
             </div>
             <img
                 src={BotonReproducir}
                 alt="Bottom Left Button"
                 onClick={repeatVideo}
-                className="bottom-left-button3"
+                className="bottom-left-button3BEBIDAS"
             />
             <img
                 src={BotonRegresar}
                 alt="Bottom Left Button"
                 onClick={() => handleNavigation('/Menu')}
-                className="bottom-left-button23"
+                className="bottom-left-button23BEBIDAS"
             />
         </div>
     );

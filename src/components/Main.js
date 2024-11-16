@@ -14,9 +14,26 @@ function Main() {
 
     useEffect(() => {
         const videoElement = videoRef.current;
-        videoElement.play().catch(error => {
-            console.warn("La reproducción automática fue bloqueada:", error);
-        });
+
+        // IntersectionObserver para manejo de reproducción automática del video
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        videoElement.play().catch(error => {
+                            console.warn("La reproducción automática fue bloqueada:", error);
+                        });
+                    } else {
+                        videoElement.pause();
+                    }
+                });
+            },
+            { threshold: 0.5 }
+        );
+
+        if (videoElement) {
+            observer.observe(videoElement);
+        }
 
         const resetTimeout = () => {
             videoElement.currentTime = 0;
@@ -28,6 +45,7 @@ function Main() {
         videoElement.addEventListener('ended', resetTimeout);
 
         return () => {
+            if (videoElement) observer.unobserve(videoElement);
             videoElement.removeEventListener('ended', resetTimeout);
         };
     }, []);
@@ -39,38 +57,54 @@ function Main() {
     };
 
     return (
-        <div className="main-container">
+        <div className="main-containerINTERACTUA">
             {/* Imagen en la parte superior izquierda */}
-            <img src={SemiCirculoSuperior} alt="QR Code" className="qr-top-left" />
+            <img
+                src={SemiCirculoSuperior}
+                alt="Logo"
+                className="qr-top-leftINTERACTUA"
+            />
 
             {/* Imágenes en la parte superior derecha */}
-            <div className="qr-top-right">
-                <img src={TextoSuperior} alt="QR Code" className="texto-qr-code" />
-                <img src={qrCode} alt="QR Code" className="qr-code" />
+            <div className="qr-top-rightINTERACTUA">
+                <img
+                    src={TextoSuperior}
+                    alt="Texto QR Code"
+                    className="texto-qr-codeINTERACTUA"
+                />
+                <img
+                    src={qrCode}
+                    alt="QR Code"
+                    className="qr-codeINTERACTUA"
+                />
             </div>
 
             {/* Contenedor del video */}
-            <div className="video-container">
+            <div className="video-containerINTERACTUA">
                 <video
-                    ref={videoRef}              
-                    className="video-player11"
                     autoPlay
+                    ref={videoRef}
+                    className="video-player11INTERACTUA"
                     src={videoSource}
                 />
             </div>
 
             {/* Imagen con acción de navegación como botón debajo del video */}
-            <div className="button-container">
+            <div className="button-containerINTERACTUA">
                 <img
                     src={Boton}
                     alt="Interact Button"
-                    className="interact-button"
+                    className="button-imageINTERACTUA"
                     onClick={handleInteractionClick}
                 />
             </div>
 
-            <img src={VideoZona} alt="VideoZona" className="videoZona" />
-           
+            {/* Imagen de VideoZona */}
+            <img
+                src={VideoZona}
+                alt="VideoZona"
+                className="videoZonaINTERACTUA"
+            />
         </div>
     );
 }

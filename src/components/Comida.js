@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import videoSource from './VIDEO_COMIDAS.mp4';
+import videoSource from './VIDEO 5_ESP.mp4';
 import ImageTopLeft from './Semicirculo con Logo.png';
 import ImageTopRight1 from './DescargaComida.png';
 import ImageTopRight2 from './Menu-Blu.png';
@@ -30,7 +30,7 @@ function MainMenu() {
             // Crea un enlace para descargar el PDF
             const link = document.createElement('a');
             link.href = PdfFile;
-            link.download = 'Comida-Blu.pdf';
+            link.download = '-Blu.pdf';
             link.click();
         }
     };
@@ -44,7 +44,7 @@ function MainMenu() {
             <img src={ImageTopRight1} alt="Top Right 1" className="image-top-right13" onClick={downloadPdf}/>
             <img src={ImageTopRight2} alt="Top Right 2" className="image-top-right23"    />
 
-            <p class="Titulo46">Comida</p>
+            <p class="Titulo46"></p>
 
             {/* Contenedor de video */}
             <div className="video-wrapper3">
@@ -60,7 +60,7 @@ function MainMenu() {
             {/* Botones a la derecha del contenedor del video */}
             {/*<div className="button-container2">
                 <img src={Boton1} alt="Button 1" onClick={() => handleNavigation('/Bebida')} className="button-image2" />
-                <img src={Boton2} alt="Button 2" onClick={() => handleNavigation('/comida')} className="button-image2" />
+                <img src={Boton2} alt="Button 2" onClick={() => handleNavigation('/')} className="button-image2" />
              </div>*/}
 
             {/* Botón inferior izquierdo debajo del contenedor del video */}
