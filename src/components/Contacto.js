@@ -48,14 +48,10 @@ function MainMenu() {
 
     return (
         <>
-            <div className="background-containerMAIN"></div> {/* Fondo agregado */}
+            <div className="background-containerMAIN"></div>
             <div className="main-container6">
-                {/* Imagen superior izquierda */}
                 <img src={ImageTopLeft} alt="Top Left" className="image-top-left6" />
-
                 <p className="Titulo3">Contacto</p>
-
-                {/* Contenedor de video */}
                 <div className="video-wrapper6">
                     <video
                         ref={videoRef}
@@ -64,23 +60,18 @@ function MainMenu() {
                         className="video-player6"
                     />
                 </div>
-
-                {/* Botón inferior izquierdo debajo del contenedor del video */}
                 <img
                     src={BotonReproducir}
                     alt="Bottom Left Button"
                     onClick={repeatVideo}
                     className="bottom-left-button6"
                 />
-
-                {/* Botón inferior izquierdo para regresar */}
                 <img
                     src={BotonRegresar}
                     alt="Bottom Left Button"
                     onClick={() => handleNavigation('/Main')}
                     className="bottom-left-button26"
                 />
-
                 <img src={VideoZona} alt="VideoZona" className="videoZonaHORARIO" />
             </div>
         </>

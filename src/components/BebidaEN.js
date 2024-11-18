@@ -39,7 +39,7 @@ function MainMenu() {
         clearTimeout(inactivityTimeout.current);
         inactivityTimeout.current = setTimeout(() => {
             navigate('/InteractuaEN');
-        }, 2 * 60 * 1000); // 2 minutos en milisegundos
+        }, 2 * 60 * 1000);
     }, [navigate]);
 
     useEffect(() => {
@@ -60,7 +60,7 @@ function MainMenu() {
 
     return (
         <>
-            <div className="background-containerMAIN"></div> {/* Fondo agregado */}
+            <div className="background-containerMAIN"></div>
             <div className="main-container3BEBIDAS">
                 <img src={ImageTopLeft} alt="Top Left" className="image-top-left3BEBIDAS" />
                 <img src={ImageTopRight1} alt="Top Right 1" className="image-top-right13BEBIDAS" onClick={downloadPdf} />

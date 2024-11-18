@@ -55,7 +55,7 @@ function MainMenu() {
                 {/* Imagen superior izquierda */}
                 <img src={ImageTopLeft} alt="Top Left" className="image-top-left7" />
 
-                <p className="Titulo7">opinión</p>
+                <p className="Titulo7">Opinión</p>
 
                 {/* Contenedor de video */}
                 <div className="video-wrapper7">
