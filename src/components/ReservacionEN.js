@@ -4,8 +4,8 @@ import videoSource from './VIDEO 6 _EN.mp4';
 import Boton1 from './Reserve Now-min.png';
 import ImageTopLeft from './Semicirculo con Logo.png';
 import ImageBottomLeft from './Semicirculo.png';
-import BotonReproducir from './Reproduci de nueva.png';
-import BotonRegresar from './Regresar.png';
+import BotonReproducir from './Play Again-min.png';
+import BotonRegresar from './Return -min.png';
 import './Reservacion.css';
 import VideoZona from './POWERED.png';
 

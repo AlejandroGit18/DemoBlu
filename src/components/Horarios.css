@@ -378,7 +378,7 @@
 
     .Titulo1 {
         position: fixed;
-        margin-left: 57%;
+        margin-left: 48%;
         transform: translateY(210%);
         color: #1b489b;
         font-size: 40px;
@@ -541,8 +541,8 @@
 
     .Titulo1 {
         position: fixed;
-        margin-left: 65%;
-        transform: translateY(360%);
+        margin-left: 61%;
+        transform: translateY(120%);
         color: #1b489b;
         font-size: 22px;
         font-family: 'Segoe UI';
