@@ -85,7 +85,7 @@ function Encuesta() {
     const resetInactivityTimeout = useCallback(() => {
         clearTimeout(window.inactivityTimeout);
         window.inactivityTimeout = setTimeout(() => {
-            navigate('/main');
+            navigate('/Interactua');
         }, 2 * 60 * 1000);
     }, [navigate]);
 

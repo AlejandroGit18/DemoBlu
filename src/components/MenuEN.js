@@ -64,8 +64,8 @@ function MainMenu() {
                     />
                 </div>
                 <div className="button-container2MENU">
-                    <img src={Boton1} alt="Button 1" onClick={() => handleNavigation('/bebida')} className="button-image2MENU" />
-                    <img src={Boton2} alt="Button 2" onClick={() => handleNavigation('/comida')} className="button-image2MENU" />
+                    <img src={Boton1} alt="Button 1" onClick={() => handleNavigation('/bebidaEN')} className="button-image2MENU" />
+                    <img src={Boton2} alt="Button 2" onClick={() => handleNavigation('/comidaEN')} className="button-image2MENU" />
                 </div>
                 <img
                     src={BotonReproducir}
@@ -76,7 +76,7 @@ function MainMenu() {
                 <img
                     src={BotonRegresar}
                     alt="Bottom Left Button"
-                    onClick={() => handleNavigation('/Main')}
+                    onClick={() => handleNavigation('/MainEN')}
                     className="bottom-left-button22MENU"
                 />
                 <img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left2MENU" />

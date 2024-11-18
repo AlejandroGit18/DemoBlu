@@ -55,7 +55,7 @@ function Encuesta() {
         } catch (error) {
             console.error('Error al enviar la encuesta', error);
         } finally {
-            navigate('/main');
+            navigate('/mainEN');
         }
     };
 
@@ -85,7 +85,7 @@ function Encuesta() {
     const resetInactivityTimeout = useCallback(() => {
         clearTimeout(window.inactivityTimeout);
         window.inactivityTimeout = setTimeout(() => {
-            navigate('/mainEN');
+            navigate('/InteractuaEN');
         }, 2 * 60 * 1000);
     }, [navigate]);
 

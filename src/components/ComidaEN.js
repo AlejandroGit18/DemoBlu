@@ -83,7 +83,7 @@ function MainMenu() {
                 <img
                     src={BotonRegresar}
                     alt="Bottom Left Button"
-                    onClick={() => handleNavigation('/Menu')}
+                    onClick={() => handleNavigation('/MenuEN')}
                     className="bottom-left-button23"
                 />
                 <img src={VideoZona} alt="VideoZona" className="videoZonaBEBIDA" />

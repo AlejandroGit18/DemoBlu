@@ -103,7 +103,7 @@ function MainMenu() {
                 <img
                     src={BotonRegresar}
                     alt="Bottom Left Button"
-                    onClick={() => handleNavigation('/Main')}
+                    onClick={() => handleNavigation('/MainEN')}
                     className="bottom-left-button27"
                 />
 

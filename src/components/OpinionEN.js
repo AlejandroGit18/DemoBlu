@@ -66,7 +66,7 @@ function MainMenu() {
                     <img 
                         src={Boton1} 
                         alt="Button 1" 
-                        onClick={() => navigate('/Encuesta')} 
+                        onClick={() => navigate('/EncuestaEN')} 
                         className="button-image7" 
                     />
                 </div>
@@ -79,7 +79,7 @@ function MainMenu() {
                 <img
                     src={BotonRegresar}
                     alt="Bottom Left Button"
-                    onClick={() => handleNavigation('/Main')}
+                    onClick={() => handleNavigation('/MainEN')}
                     className="bottom-left-button27"
                 />
                 <img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left7" />

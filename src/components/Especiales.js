@@ -30,7 +30,7 @@ function MainMenu() {
     const resetInactivityTimeout = useCallback(() => {
         clearTimeout(window.inactivityTimeout);
         window.inactivityTimeout = setTimeout(() => {
-            navigate('/Main');
+            navigate('/Interactua');
         }, 2 * 60 * 1000);
     }, [navigate]);
 

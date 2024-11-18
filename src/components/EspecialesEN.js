@@ -30,7 +30,7 @@ function MainMenu() {
     const resetInactivityTimeout = useCallback(() => {
         clearTimeout(window.inactivityTimeout);
         window.inactivityTimeout = setTimeout(() => {
-            navigate('/MainEN');
+            navigate('/InteractuaEN');
         }, 2 * 60 * 1000);
     }, [navigate]);
 
@@ -73,7 +73,7 @@ function MainMenu() {
                 <img
                     src={BotonRegresar}
                     alt="Bottom Left Button"
-                    onClick={() => handleNavigation('/Main')}
+                    onClick={() => handleNavigation('/MainEN')}
                     className="bottom-left-button225"
                 />
                 <img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left2" />
