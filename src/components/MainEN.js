@@ -4,7 +4,7 @@ import './Main.css';
 import SemiCirculoSuperior from './Semicirculo con Logo.png';
 import Boton from './Interact with me-min.png';
 import TextoSuperior from './For the mobilie version scan the QR code-min.png';
-import qrCode from './QR1.png';
+import qrCode from './QR1.png'; //CAMBIO DE QR
 import videoSource from './VIDEO 1_EN.mp4';
 import VideoZona from './POWERED.png';
 
