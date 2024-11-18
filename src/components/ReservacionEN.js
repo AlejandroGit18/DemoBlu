@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import videoSource from './VIDEO 6_EN.mp4';
+import videoSource from './VIDEO 6 _EN.mp4';
 import Boton1 from './Reserva Ahora.png';
 import ImageTopLeft from './Semicirculo con Logo.png';
 import ImageBottomLeft from './Semicirculo.png';
