@@ -379,6 +379,17 @@
 
 @media (min-width: 481px) and (max-width: 1280px) and (max-height: 1500px)
 {
+    .videoZonaHORARIO {
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 220%;
+        margin-left: 95%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
         --shadow-y: 70%; /* Posición vertical de la sombra */
@@ -531,6 +542,18 @@
 /* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
 @media (min-width: 414px) and (max-width: 896px)
 {
+    .videoZonaHORARIO {
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 167%;
+        margin-left: 20%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
         --shadow-y: 70%; /* Posición vertical de la sombra */
@@ -683,6 +706,18 @@
 /* Estilos para dispositivos móviles de tamaño medio a grande */
 @media (max-width: 429px) and (min-width: 375px)
 {
+    .videoZonaHORARIO {
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 167%;
+        margin-left: 20%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
         --shadow-y: 70%; /* Posición vertical de la sombra */
@@ -835,6 +870,17 @@
 /* Estilos para dispositivos móviles pequeños */
 @media (min-width: 320px) and (max-width: 374px)
 {
+    .videoZonaHORARIO {
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 167%;
+        margin-left: 20%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
         --shadow-y: 70%; /* Posición vertical de la sombra */

@@ -31,7 +31,7 @@ function MainMenu() {
             {/* Botones a la derecha del contenedor de la imagen */}
             <div className="button-containerIDIOMA">
                 <img src={Boton1} alt="Button 1" onClick={() => handleNavigation('/Interactua')} className="button-imageIDIOMA" />
-                <img src={Boton2} alt="Button 2" onClick={() => handleNavigation('/Horarios')} className="button-imageIDIOMA" />
+                <img src={Boton2} alt="Button 2" onClick={() => handleNavigation('/InteractuaEN')} className="button-imageIDIOMA" />
             </div>
 
             <img src={VideoZona} alt="VideoZona" className="videoZonaIDIOMA" />

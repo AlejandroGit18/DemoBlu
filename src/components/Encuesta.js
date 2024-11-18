@@ -99,6 +99,8 @@ function Encuesta() {
     };
 
     return (
+        <>
+            <div className="background-containerMAIN"></div> {/* Fondo agregado */}
         <div className="container">
             {/* Imagen superior izquierda */}
             <img src={ImageTopLeft} alt="Top Left" className="image-top-left2" />
@@ -189,7 +191,8 @@ function Encuesta() {
                 className="image-bottom-left2" 
                 onClick={() => window.close()} 
             />
-        </div>
+          </div>
+        </>
     );
 }
 

@@ -6,6 +6,7 @@ import ImageBottomLeft from './Semicirculo.png';
 import BotonRegresar from './Regresar.png';
 import carousel1 from './carousel1.png';
 import carousel2 from './carousel2.png';
+import VideoZona from './POWERED.png';
 
 function MainMenu() {
     const navigate = useNavigate();
@@ -58,6 +59,7 @@ function MainMenu() {
 
             {/* Imagen en la parte inferior derecha */}
             <img src={ImageBottomLeft} alt="Bottom Left" className="image-bottom-left2" />
+            <img src={VideoZona} alt="VideoZona" className="videoZonaESPECIALES" />
             </div>
         </>
     );

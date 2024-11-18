@@ -11,6 +11,15 @@ import VideoZona from './POWERED.png';
 function Main() {
     const navigate = useNavigate();
     const videoRef = useRef(null);
+    const inactivityTimeout = useRef(null);
+
+    // Configuración de detección de inactividad
+    const resetInactivityTimeout = () => {
+        clearTimeout(inactivityTimeout.current);
+        inactivityTimeout.current = setTimeout(() => {
+            navigate('/');
+        }, 2 * 60 * 1000); // 2 minutos en milisegundos
+    };
 
     useEffect(() => {
         const videoElement = videoRef.current;
@@ -47,6 +56,25 @@ function Main() {
         return () => {
             if (videoElement) observer.unobserve(videoElement);
             videoElement.removeEventListener('ended', resetTimeout);
+        };
+    }, []);
+
+    useEffect(() => {
+        // Inicializar el tiempo de inactividad al montar el componente
+        resetInactivityTimeout();
+
+        // Event listeners para detectar actividad del usuario
+        const events = ['mousemove', 'mousedown', 'keypress', 'scroll', 'touchstart'];
+        events.forEach(event =>
+            window.addEventListener(event, resetInactivityTimeout)
+        );
+
+        return () => {
+            // Limpiar eventos y timeout al desmontar el componente
+            clearTimeout(inactivityTimeout.current);
+            events.forEach(event =>
+                window.removeEventListener(event, resetInactivityTimeout)
+            );
         };
     }, []);
 
