@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Especiales.css';
 import ImageTopLeft from './Semicirculo con Logo.png';
 import ImageBottomLeft from './Semicirculo.png';
-import BotonRegresar from './Regresar.png';
+import BotonRegresar from './Return -min.png';
 import carousel1 from './carousel1.png';
 import carousel2 from './carousel2.png';
 import VideoZona from './POWERED.png';
@@ -55,7 +55,7 @@ function MainMenu() {
             <div className="background-containerMAIN"></div>
             <div className="main-container2">
                 <img src={ImageTopLeft} alt="Top Left" className="image-top-left2" />
-                <p className="Titulo445">Especiales</p>
+                <p className="Titulo445">Specials</p>
 
                 {/* Carrusel de imágenes */}
                 <div className="carousel-container">

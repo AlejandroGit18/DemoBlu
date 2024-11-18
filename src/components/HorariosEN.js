@@ -2,8 +2,8 @@ import React, { useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import videoSource from './VIDEO 7_EN.mp4';
 import ImageTopLeft from './Semicirculo con Logo.png';
-import BotonReproducir from './Reproduci de nueva.png';
-import BotonRegresar from './Regresar.png';
+import BotonReproducir from './Play Again-min.png';
+import BotonRegresar from './Return -min.png';
 import './Horarios.css';
 import VideoZona from './POWERED.png';
 
@@ -51,7 +51,7 @@ function MainMenu() {
             <div className="background-containerMAIN"></div>
             <div className="main-container4">
                 <img src={ImageTopLeft} alt="Top Left" className="image-top-left4" />
-                <p className="Titulo1">Horarios</p>
+                <p className="Titulo1">Opening HOURS</p>
                 <div className="video-wrapper4">
                     <video
                         ref={videoRef}

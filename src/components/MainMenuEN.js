@@ -1,18 +1,18 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import videoSource from './VIDEO 2_EN.mp4';
-import Boton1 from './Menu.png';
-import Boton2 from './Horarios.png';
-import Boton3 from './Especiales.png';
-import Boton4 from './Eventos.png';
-import Boton5 from './Contacto_1.png';
-import Boton6 from './Reservaciones.png';
-import Boton7 from './Opinion.png';
+import Boton1 from './Menu-min.png';
+import Boton2 from './Opening hours-min.png';
+import Boton3 from './Specials-min.png';
+import Boton4 from './Events-min.png';
+import Boton5 from './Contact-min.png';
+import Boton6 from './Reservations-min.png';
+import Boton7 from './Opinion-min.png';
 import ImageTopLeft from './Semicirculo con Logo.png';
-import ImageTopRight1 from './movilQr.png';
+import ImageTopRight1 from './For the mobilie version scan the QR code-min.png';
 import ImageTopRight2 from './QR1.png';
 import ImageBottomLeft from './Semicirculo.png';
-import BotonReproducir from './Reproduci de nueva.png';
+import BotonReproducir from './Play Again-min.png';
 import './MainMenu.css';
 import VideoZona from './POWERED.png';
 

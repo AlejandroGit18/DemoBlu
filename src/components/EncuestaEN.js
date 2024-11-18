@@ -113,13 +113,13 @@ function Encuesta() {
 
                 <div className="card">
                     <div className="card-title">
-                        <h5>Encuesta de Satisfacción</h5>
+                        <h5>Satisfaction Survey</h5>
                     </div>
                     <div className="card-body">
-                        <p className="texto1">En cada pregunta, califica tu experiencia</p>
+                        <p className="texto1">In each question, rate your experience</p>
                         <form className="survey-form mt-3" onSubmit={handleSubmit}>
                             <div className="form-group">
-                                <label className="texto2">1. ¿Cómo calificarías la variedad de opciones de comida y bebida en nuestro menú?</label>
+                                <label className="texto2">1. How would you rate the variety of food and drink options on our menu?</label>
                                 <div className="image-face">
                                     <img src={getImageForValue(valores.pregunta1)} alt="Feedback" className="feedback-image" />
                                 </div>
@@ -135,7 +135,7 @@ function Encuesta() {
                                 />
                             </div>
                             <div className="form-group">
-                                <label className="texto3">2. ¿Qué tan satisfecho(a) estás con el tiempo que tomó su experiencia en el establecimiento?</label>
+                                <label className="texto3">2. How satisfied are you with the time it took for your experience in the establishment?</label>
                                 <div className="image-face">
                                     <img src={getImageForValue(valores.pregunta2)} alt="Feedback" className="feedback-image" />
                                 </div>
@@ -151,7 +151,7 @@ function Encuesta() {
                                 />
                             </div>
                             <div className="form-group">
-                                <label className="texto4">3. ¿Cómo te pareció el ambiente del lugar (decoración, música, iluminación, etc...)?</label>
+                                <label className="texto4">3. How did you find the ambiance of the place (decoration, music, lighting, etc.)?</label>
                                 <div className="image-face">
                                     <img src={getImageForValue(valores.pregunta3)} alt="Feedback" className="feedback-image" />
                                 </div>
@@ -167,14 +167,14 @@ function Encuesta() {
                                 />
                             </div>
                             <div className="form-group">
-                                <label className="texto5">Déjanos tus comentarios:</label>
+                                <label className="texto5">Leave us your comments:</label>
                                 <textarea className="input_text" rows="4" onChange={handleCommentChange}></textarea>
                             </div>
                             <hr className="custom-line" />
                             <div className="form-group">
                                 <div className="stars">{renderStars()}</div>
                             </div>
-                            <button type="submit" className="boton-enviar">ENVIAR</button>
+                            <button type="submit" className="boton-enviar">SEND</button>
                         </form>
                     </div>
                 </div>

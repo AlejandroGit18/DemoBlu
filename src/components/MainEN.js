@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Main.css';
 import SemiCirculoSuperior from './Semicirculo con Logo.png';
-import Boton from './Interactua Conmigo.png';
+import Boton from './Interact with me-min.png';
 import TextoSuperior from './movilQr.png';
 import qrCode from './QR1.png';
 import videoSource from './VIDEO 1_EN.mp4';
@@ -76,7 +76,7 @@ function Main() {
 
     const handleInteractionClick = () => {
         setTimeout(() => {
-            navigate('/Main');
+            navigate('/MainEN');
         }, 1500);
     };
 

@@ -1,11 +1,11 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import videoSource from './VIDEO 12_EN.mp4';
-import Boton1 from './Realiza la encuesta.png';
+import Boton1 from './Complete the Survey-min.png';
 import ImageTopLeft from './Semicirculo con Logo.png';
 import ImageBottomLeft from './Semicirculo.png';
-import BotonReproducir from './Reproduci de nueva.png';
-import BotonRegresar from './Regresar.png';
+import BotonReproducir from './Play Again-min.png';
+import BotonRegresar from './Return -min.png';
 import './Opinion.css';
 import VideoZona from './POWERED.png';
 
@@ -53,7 +53,7 @@ function MainMenu() {
             <div className="background-containerMAIN"></div>
             <div className="main-container7">
                 <img src={ImageTopLeft} alt="Top Left" className="image-top-left7" />
-                <p className="Titulo7">Opinión</p>
+                <p className="Titulo7">Opinion</p>
                 <div className="video-wrapper7">
                     <video
                         ref={videoRef}

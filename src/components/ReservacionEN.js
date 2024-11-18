@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import videoSource from './VIDEO 6 _EN.mp4';
-import Boton1 from './Reserva Ahora.png';
+import Boton1 from './Reserve Now-min.png';
 import ImageTopLeft from './Semicirculo con Logo.png';
 import ImageBottomLeft from './Semicirculo.png';
 import BotonReproducir from './Reproduci de nueva.png';
@@ -69,7 +69,7 @@ function MainMenu() {
                 {/* Imagen superior izquierda */}
                 <img src={ImageTopLeft} alt="Top Left" className="image-top-left7" />
 
-                <p className="Titulo7">Reservaciones</p>
+                <p className="Titulo7">Reserve now</p>
 
                 {/* Contenedor de video */}
                 <div className="video-wrapper7">
