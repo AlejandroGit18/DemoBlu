@@ -83,26 +83,30 @@ function Encuesta() {
     };
 
     const resetInactivityTimeout = useCallback(() => {
-        clearTimeout(window.inactivityTimeout);
-        window.inactivityTimeout = setTimeout(() => {
-            navigate('/Interactua');
-        }, 2 * 60 * 1000);
+        if (window.matchMedia('(max-width: 768px)').matches) {
+            clearTimeout(window.inactivityTimeout);
+            window.inactivityTimeout = setTimeout(() => {
+                navigate('/Interactua');
+            }, 2 * 60 * 1000);
+        }
     }, [navigate]);
 
     useEffect(() => {
-        resetInactivityTimeout();
+        if (window.matchMedia('(max-width: 768px)').matches) {
+            resetInactivityTimeout();
 
-        const events = ['mousemove', 'mousedown', 'keypress', 'scroll', 'touchstart'];
-        events.forEach(event =>
-            window.addEventListener(event, resetInactivityTimeout)
-        );
-
-        return () => {
-            clearTimeout(window.inactivityTimeout);
+            const events = ['mousemove', 'mousedown', 'keypress', 'scroll', 'touchstart'];
             events.forEach(event =>
-                window.removeEventListener(event, resetInactivityTimeout)
+                window.addEventListener(event, resetInactivityTimeout)
             );
-        };
+
+            return () => {
+                clearTimeout(window.inactivityTimeout);
+                events.forEach(event =>
+                    window.removeEventListener(event, resetInactivityTimeout)
+                );
+            };
+        }
     }, [resetInactivityTimeout]);
 
     return (

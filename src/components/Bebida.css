@@ -685,169 +685,15 @@
     
 }
 
-/* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
-@media (min-width: 414px) and (max-width: 460) and (max-height: 900px) and (min-height: 780px)
-{
-    :root {
-        --shadow-x: 90%; /* Posición horizontal de la sombra */
-        --shadow-y: 70%; /* Posición vertical de la sombra */
-        --shadow-size: 160px; 
-
-        --shadow-x1: 40%; /* Posición horizontal de la sombra */
-        --shadow-y1: 20%; /* Posición vertical de la sombra */
-        --shadow-size1: 160px; 
-    }
-    
-    .background-containerMAIN {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1; /* Envía el fondo detrás de todos los elementos */
-        overflow: hidden;
-        background: 
-            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
-            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
-            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
-            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
-    }
-    
-    .main-container3BEBIDAS {
-        position: relative;
-        text-align: center;
-        height: 100vh;
-        width: auto;
-    }
-    
-    .image-top-left3BEBIDAS {
-        position: absolute;
-        top: -10%;
-        left: -35%;
-        width: 90%;
-        height: auto;
-    }
-    
-    .image-top-right13BEBIDAS{
-        position:fixed;
-        top: 54%;
-        margin-left: 73%;
-        margin-right: 0%;
-        margin-bottom: 0%;
-        display: flex;
-        width: 25%;
-        gap: 1%;
-    }
-    
-    .image-top-right23BEBIDAS
-    {
-        position:fixed;
-        top: 41%;
-        margin-left: 73%;
-        margin-right: 0%;
-        margin-bottom: 0%;
-        display: flex;
-        width: 25%;
-        gap: 1%;
-    }
-    
-    .video-wrapper3BEBIDAS {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        height: 62%;
-        width: 62%;
-        border-radius: 10px;
-        margin-left: -2%;
-        margin-top: 14%;
-        /*overflow: hidden;*/
-    }
-    
-    .video-player3BEBIDAS {
-        
-        width: auto;
-        height: 90%;
-        margin-top: 50%;
-        margin-left: 5%;
-        border: 3px solid #1b489b;
-        border-radius: 10px;
-    }
-    
-    .button-container3BEBIDAS {
-        position: fixed;
-        /*top: 50%;*/
-        /*margin-right: 0%;*/
-        /*margin-left: 85%;*/
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 50%;
-        margin-left: 73%;
-        margin-right: 4%;
-        margin-top: -35%;
-        /*transform: translateX(82.5%);*/
-        transform: translate(80%);
-        transform: translateY(-30%);
-    }
-    
-    .button-image3BEBIDAS {
-        cursor: pointer;
-        margin-bottom: 15%;
-        width: 110%;
-    }
-    
-    .bottom-left-button3BEBIDAS {
-        position: absolute;
-        bottom: 22%;
-        left: 3%;
-        cursor: pointer;
-        width: 30%;
-        height: auto;
-    }
-
-    .Titulo45BEBIDAS {
-        position: fixed;
-        margin-left: 3%;
-        transform: translateY(340%);
-        color: #1b489b;
-        font-size: 27px;
-        font-family: 'Segoe UI';
-        font-weight: 700; /* Usa un peso alto para mayor grosor */
-        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
-        text-transform: uppercase; /* Convierte el texto a mayúsculas */
-        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
-    }
-    
-    .bottom-left-button23BEBIDAS {
-        position: fixed;
-        bottom: 22%;
-        left: 35%;
-        cursor: pointer;
-        width: 30%;
-        height: auto;
-    }
-    
-    .image-bottom-left3BEBIDAS {
-        position: fixed;
-        top: 92.5%;
-        bottom: 0%;
-        left: 37%;
-        width: 80%;
-        height: auto;
-        visibility: hidden;
-    }
-    
-    
-}
-
 /* Estilos para dispositivos móviles de tamaño medio a grande */
-@media (max-width: 435px) and (min-width: 430px)
+@media (max-width: 480px) and (min-width: 350px)
 {
     .videoZonaBEBIDA {
         position: absolute;
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 190%;
+        margin-top: 155%;
         margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -887,172 +733,7 @@
     
     .image-top-left3BEBIDAS {
         position: absolute;
-        top: -11%;
-        left: -35%;
-        width: 100%;
-        height: auto;
-    }
-    
-    .image-top-right13BEBIDAS{
-        position:fixed;
-        top: 58%;
-        margin-left: 73%;
-        margin-right: 0%;
-        margin-bottom: 0%;
-        display: flex;
-        width: 25%;
-        gap: 1%;
-    }
-    
-    .image-top-right23BEBIDAS
-    {
-        position:fixed;
-        top: 41%;
-        margin-left: 73%;
-        margin-right: 0%;
-        margin-bottom: 0%;
-        display: flex;
-        width: 25%;
-        gap: 1%;
-    }
-    
-    .video-wrapper3BEBIDAS {
-        position: absolute;
-        display: absolute;
-        align-items: center;
-        height: 63%;
-        width: 65%;
-        border-radius: 10px;
-        margin-left: -2%;
-        margin-top: 12%;
-        /*overflow: hidden;*/
-    }
-    
-    .video-player3BEBIDAS {
-        
-        width: auto;
-        height: 90%;
-        margin-top: 45%;
-        margin-left: 5%;
-        border: 3px solid #1b489b;
-        border-radius: 10px;
-    }
-    
-    .button-container3BEBIDAS {
-        position: fixed;
-        /*top: 50%;*/
-        /*margin-right: 0%;*/
-        /*margin-left: 85%;*/
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 50%;
-        margin-left: 73%;
-        margin-right: 4%;
-        margin-top: -35%;
-        /*transform: translateX(82.5%);*/
-        transform: translate(80%);
-        transform: translateY(-30%);
-    }
-    
-    .button-image3BEBIDAS {
-        cursor: pointer;
-        margin-bottom: 15%;
-        width: 110%;
-    }
-    
-    .bottom-left-button3BEBIDAS {
-        position: absolute;
-        bottom: 16%;
-        left: 3%;
-        cursor: pointer;
-        width: 30%;
-        height: auto;
-    }
-
-    .Titulo45BEBIDAS {
-        position: fixed;
-        margin-left: 3%;
-        transform: translateY(400%);
-        color: #1b489b;
-        font-size: 20px;
-        font-family: 'Segoe UI';
-        font-weight: 700; /* Usa un peso alto para mayor grosor */
-        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
-        text-transform: uppercase; /* Convierte el texto a mayúsculas */
-        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
-    }
-    
-    .bottom-left-button23BEBIDAS {
-        position: absolute;
-        bottom: 16%;
-        left: 35%;
-        cursor: pointer;
-        width: 30%;
-        height: auto;
-    }
-    
-    .image-bottom-left3BEBIDAS {
-        position: fixed;
-        top: 92.5%;
-        bottom: 0%;
-        left: 37%;
-        width: 80%;
-        height: auto;
-        visibility: hidden;
-    }
-    
-    
-}
-
-/* Estilos para dispositivos móviles de tamaño medio a grande */
-@media (max-width: 429px) and (min-width: 375px)
-{
-    .videoZonaBEBIDA {
-        position: absolute;
-        height: 15%;
-        /*width: 100%;*/
-    
-        margin-top: 185%;
-        margin-left: 20%;
-        margin-bottom: 0%;
-        margin-right: 0%;
-    }
-
-    :root {
-        --shadow-x: 90%; /* Posición horizontal de la sombra */
-        --shadow-y: 70%; /* Posición vertical de la sombra */
-        --shadow-size: 160px; 
-
-        --shadow-x1: 40%; /* Posición horizontal de la sombra */
-        --shadow-y1: 20%; /* Posición vertical de la sombra */
-        --shadow-size1: 160px; 
-    }
-    
-    .background-containerMAIN {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1; /* Envía el fondo detrás de todos los elementos */
-        overflow: hidden;
-        background: 
-            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
-            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
-            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
-            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
-    }
-
-    .main-container3BEBIDAS {
-        position: relative;
-        text-align: center;
-        height: 100vh;
-        width: auto;
-    }
-    
-    .image-top-left3BEBIDAS {
-        position: absolute;
-        top: -9%;
+        top: -10%;
         left: -35%;
         width: 90%;
         height: auto;
@@ -1060,7 +741,7 @@
     
     .image-top-right13BEBIDAS{
         position:fixed;
-        top: 58%;
+        top: 45%;
         margin-left: 73%;
         margin-right: 0%;
         margin-bottom: 0%;
@@ -1072,7 +753,7 @@
     .image-top-right23BEBIDAS
     {
         position:fixed;
-        top: 41%;
+        top: 30%;
         margin-left: 73%;
         margin-right: 0%;
         margin-bottom: 0%;
@@ -1085,8 +766,8 @@
         position: absolute;
         display: absolute;
         align-items: center;
-        height: 57%;
-        width: 57%;
+        height: 55%;
+        width: 55%;
         border-radius: 10px;
         margin-left: 0%;
         margin-top: 0%;
@@ -1098,7 +779,7 @@
         
         width: auto;
         height: 100%;
-        margin-top: 65%;
+        margin-top: 55%;
         margin-left: 2%;
         border: 3px solid #1b489b;
         border-radius: 10px;
@@ -1128,17 +809,17 @@
     
     .bottom-left-button3BEBIDAS {
         position: absolute;
-        bottom: 16%;
+        bottom: 25%;
         left: 3%;
         cursor: pointer;
-        width: 31%;
+        width: 30%;
         height: auto;
     }
 
     .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(400%);
+        transform: translateY(300%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Segoe UI';
@@ -1150,332 +831,7 @@
     
     .bottom-left-button23BEBIDAS {
         position: absolute;
-        bottom: 16%;
-        left: 35%;
-        cursor: pointer;
-        width: 31%;
-        height: auto;
-    }
-    
-    .image-bottom-left3BEBIDAS {
-        position: fixed;
-        top: 92.5%;
-        bottom: 0%;
-        left: 37%;
-        width: 80%;
-        height: auto;
-        visibility: hidden;
-    }
-    
-    
-}
-
-@supports (-webkit-touch-callout: none) {
-@media (max-width: 429px) and (min-width: 375px)
-{
-    .videoZonaBEBIDA {
-        position: absolute;
-        height: 15%;
-        /*width: 100%;*/
-    
-        margin-top: 150%;
-        margin-left: 20%;
-        margin-bottom: 0%;
-        margin-right: 0%;
-    }
-
-    
-    :root {
-        --shadow-x: 90%; /* Posición horizontal de la sombra */
-        --shadow-y: 70%; /* Posición vertical de la sombra */
-        --shadow-size: 160px; 
-
-        --shadow-x1: 40%; /* Posición horizontal de la sombra */
-        --shadow-y1: 20%; /* Posición vertical de la sombra */
-        --shadow-size1: 160px; 
-    }
-    
-    .background-containerMAIN {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1; /* Envía el fondo detrás de todos los elementos */
-        overflow: hidden;
-        background: 
-            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
-            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
-            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
-            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
-    }
-
-    .main-container3BEBIDAS {
-        position: relative;
-        text-align: center;
-        height: 100vh;
-        width: auto;
-    }
-    
-    .image-top-left3BEBIDAS {
-        position: absolute;
-        top: -11%;
-        left: -35%;
-        width: 90%;
-        height: auto;
-        z-index: 9999;
-    }
-    
-    .image-top-right13BEBIDAS{
-        position:fixed;
-        top: 58%;
-        margin-left: 73%;
-        margin-right: 0%;
-        margin-bottom: 0%;
-        display: flex;
-        width: 25%;
-        gap: 1%;
-    }
-    
-    .image-top-right23BEBIDAS
-    {
-        position:fixed;
-        top: 41%;
-        margin-left: 73%;
-        margin-right: 0%;
-        margin-bottom: 0%;
-        display: flex;
-        width: 25%;
-        gap: 1%;
-    }
-    
-    .video-wrapper3BEBIDAS {
-        position: absolute;
-        display: absolute;
-        align-items: center;
-        height: 65%;
-        width: 65%;
-        border-radius: 10px;
-        margin-left: 0%;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        /*overflow: hidden;*/
-    }
-    
-    .video-player3BEBIDAS {
-        
-        width: auto;
-        height: 100%;
-        margin-top: 45%;
-        margin-left: 2%;
-        border: 3px solid #1b489b;
-        border-radius: 10px;
-    }
-    
-    .button-container3BEBIDAS {
-        position: fixed;
-        /*top: 50%;*/
-        /*margin-right: 0%;*/
-        /*margin-left: 85%;*/
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 50%;
-        margin-left: 73%;
-        margin-right: 4%;
-        margin-top: -35%;
-        /*transform: translateX(82.5%);*/
-        transform: translate(80%);
-        transform: translateY(-30%);
-    }
-    
-    .button-image3BEBIDAS {
-        cursor: pointer;
-        margin-bottom: 15%;
-        width: 110%;
-    }
-    
-    .bottom-left-button3BEBIDAS {
-        position: absolute;
-        bottom: 12%;
-        left: 3%;
-        cursor: pointer;
-        width: 30%;
-        height: auto;
-        z-index: 9999;
-    }
-
-    .Titulo45BEBIDAS {
-        position: fixed;
-        margin-left: 3%;
-        transform: translateY(290%);
-        color: #1b489b;
-        font-size: 20px;
-        font-family: 'Segoe UI';
-        font-weight: 700; /* Usa un peso alto para mayor grosor */
-        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
-        text-transform: uppercase; /* Convierte el texto a mayúsculas */
-        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
-    }
-    
-    .bottom-left-button23BEBIDAS {
-        position: absolute;
-        bottom: 12%;
-        left: 35%;
-        cursor: pointer;
-        width: 30%;
-        height: auto;
-        z-index: 9999;
-    }
-    
-    .image-bottom-left3BEBIDAS {
-        position: fixed;
-        top: 92.5%;
-        bottom: 0%;
-        left: 37%;
-        width: 80%;
-        height: auto;
-        visibility: hidden;
-    }
-    
-    
-}
-}
-
-/* Estilos para dispositivos móviles pequeños */
-@media (min-width: 320px) and (max-width: 374px)
-{
-    :root {
-        --shadow-x: 90%; /* Posición horizontal de la sombra */
-        --shadow-y: 70%; /* Posición vertical de la sombra */
-        --shadow-size: 160px; 
-
-        --shadow-x1: 40%; /* Posición horizontal de la sombra */
-        --shadow-y1: 20%; /* Posición vertical de la sombra */
-        --shadow-size1: 160px; 
-    }
-    
-    .background-containerMAIN {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1; /* Envía el fondo detrás de todos los elementos */
-        overflow: hidden;
-        background: 
-            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
-            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
-            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
-            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
-    }
-
-    .main-container3BEBIDAS {
-        position: relative;
-        text-align: center;
-        height: 100vh;
-        width: auto;
-    }
-    
-    .image-top-left3BEBIDAS {
-        position: absolute;
-        top: -12%;
-        left: -35%;
-        width: 90%;
-        height: auto;
-    }
-    
-    .image-top-right13BEBIDAS{
-        position:fixed;
-        top: 58%;
-        margin-left: 73%;
-        margin-right: 0%;
-        margin-bottom: 0%;
-        display: flex;
-        width: 25%;
-        gap: 1%;
-    }
-    
-    .image-top-right23BEBIDAS
-    {
-        position:fixed;
-        top: 41%;
-        margin-left: 73%;
-        margin-right: 0%;
-        margin-bottom: 0%;
-        display: flex;
-        width: 25%;
-        gap: 1%;
-    }
-    
-    .video-wrapper3BEBIDAS {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        height: 65%;
-        width: 70%;
-        border-radius: 10px;
-        margin-left: -2%;
-        margin-top: 12%;
-        /*overflow: hidden;*/
-    }
-    
-    .video-player3BEBIDAS {
-        
-        width: auto;
-        height: 100%;
-        margin-top: 60%;
-        margin-left: 5%;
-        border: 3px solid #1b489b;
-        border-radius: 10px;
-    }
-    
-    .button-container3BEBIDAS {
-        position: fixed;
-        /*top: 50%;*/
-        /*margin-right: 0%;*/
-        /*margin-left: 85%;*/
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 50%;
-        margin-left: 73%;
-        margin-right: 4%;
-        margin-top: -35%;
-        /*transform: translateX(82.5%);*/
-        transform: translate(80%);
-        transform: translateY(-30%);
-    }
-    
-    .button-image3BEBIDAS {
-        cursor: pointer;
-        margin-bottom: 15%;
-        width: 110%;
-    }
-    
-    .bottom-left-button3BEBIDAS {
-        position: absolute;
-        bottom: 15%;
-        left: 3%;
-        cursor: pointer;
-        width: 30%;
-        height: auto;
-    }
-
-    .Titulo45BEBIDAS {
-        position: fixed;
-        margin-left: 3%;
-        transform: translateY(340%);
-        color: #1b489b;
-        font-size: 20px;
-        font-family: 'Segoe UI';
-        font-weight: 700; /* Usa un peso alto para mayor grosor */
-        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
-        text-transform: uppercase; /* Convierte el texto a mayúsculas */
-        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
-    }
-    
-    .bottom-left-button23BEBIDAS {
-        position: fixed;
-        bottom: 12%;
+        bottom: 25%;
         left: 35%;
         cursor: pointer;
         width: 30%;
