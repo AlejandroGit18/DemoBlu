@@ -418,8 +418,8 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 167%;
-        margin-left: 20%;
+        margin-top: 190%;
+        margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
@@ -491,8 +491,8 @@
         position: fixed;
         display: flex;
         align-items: center;
-        height: 77%;
-        width: 77%;
+        height: 65%;
+        width: 65%;
         border-radius: 10px;
         margin-left: 10%;
         /*overflow: hidden;*/
@@ -502,8 +502,8 @@
         
         width: auto;
         height: 90%;
-        margin-top: 75%;
-        margin-left: -4.5%;
+        margin-top: 90%;
+        margin-left: 8%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
@@ -532,17 +532,17 @@
     
     .bottom-left-button4 {
         position: absolute;
-        bottom:8%;
-        left: 10%;
+        bottom: 18%;
+        left: 16%;
         cursor: pointer;
-        width: 36%;
+        width: 27%;
         height: auto;
     }
 
     .Titulo1 {
         position: fixed;
-        margin-left: 61%;
-        transform: translateY(120%);
+        margin-left: 57%;
+        transform: translateY(330%);
         color: #1b489b;
         font-size: 22px;
         font-family: 'Segoe UI';
@@ -554,10 +554,10 @@
     
     .bottom-left-button24 {
         position: fixed;
-        bottom: 8%;
-        left: 50%;
+        bottom: 18%;
+        left: 45%;
         cursor: pointer;
-        width: 35%;
+        width: 27%;
         height: auto;
     }
     
@@ -581,7 +581,7 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 167%;
+        margin-top: 191%;
         margin-left: 20%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -621,7 +621,7 @@
     
     .image-top-left4 {
         position: absolute;
-        top: -12%;
+        top: -10%;
         left: -35%;
         width: 90%;
         height: auto;
@@ -663,9 +663,9 @@
     
     .video-player4 {
         
-        width: auto;
+        width: 70%;
         height: 100%;
-        margin-top: 28%;
+        margin-top: 70%;
         margin-left: -1%;
         border: 3px solid #1b489b;
         border-radius: 10px;
@@ -695,7 +695,7 @@
     
     .bottom-left-button4 {
         position: absolute;
-        bottom: 13.5%;
+        bottom: 10%;
         left: 10%;
         cursor: pointer;
         width: 36%;
@@ -704,20 +704,20 @@
 
     .Titulo1 {
         position: fixed;
-        margin-left: 52%;
-        transform: translateY(28%);
+        margin-left: 65%;
+        transform: translateY(200%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Quicksand';
         font-weight: 900; /* Usa un peso alto para mayor grosor */
         letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
         text-transform: uppercase; /* Convierte el texto a mayúsculas */
-        text-shadow: 0.3px 0.3px 0 #1b489b, -0.3px -0.3px 0 #1b489b, 0.3px -0.3px 0 #1b489b, -0.3px 0.3px 0 #1b489b;
+        text-shadow: 0.6px 0.6px 0 #1b489b, -0.6px -0.6px 0 #1b489b, 0.6px -0.6px 0 #1b489b, -0.6px 0.6px 0 #1b489b;
     }
     
     .bottom-left-button24 {
         position: absolute;
-        bottom: 13.5%;
+        bottom: 10%;
         left: 50%;
         cursor: pointer;
         width: 35%;

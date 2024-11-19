@@ -512,6 +512,17 @@
 /* Estilos específicos para móviles de 414px de ancho (como iPhone 11 Pro Max y similares) */
 @media (min-width: 414px) and (max-width: 896px)
 {
+    .videoZonaESPECIALES {
+        position: absolute;
+        height: 15%;
+        /*width: 100%;*/
+    
+        margin-top: 28%;
+        margin-left: -48%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
         --shadow-y: 70%; /* Posición vertical de la sombra */
@@ -542,10 +553,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 75%;
-        height: 70vh;
-        margin-left: 12%;
-        margin-top: 25%;
+        width: 70%;
+        height: 60vh;
+        margin-left: 16%;
+        margin-top: 30%;
         perspective: 1000px;
     }
     
@@ -615,8 +626,8 @@
 
     .Titulo445 {
         position: fixed;
-        margin-left: 60%;
-        transform: translateY(400%);
+        margin-left: 55%;
+        transform: translateY(350%);
         color: #1b489b;
         font-size: 22px;
         font-family: 'Segoe UI';
@@ -628,10 +639,10 @@
     
     .bottom-left-button225 {
         position: fixed;
-        bottom: 8%;
-        left: 10%;
+        bottom: 14%;
+        left: 15%;
         cursor: pointer;
-        width: 32%;
+        width: 30%;
         height: auto;
     }
     
@@ -692,7 +703,7 @@
         align-items: center;
         justify-content: center;
         width: 70%;
-        height: 60vh;
+        height: 57vh;
         margin-left: 15%;
         margin-top: 45%;
         perspective: 1000px;
@@ -829,7 +840,7 @@
         align-items: center;
         justify-content: center;
         width: 70%;
-        height: 64vh;
+        height: 60vh;
         margin-left: 16%;
         margin-top: 25%;
         perspective: 1000px;

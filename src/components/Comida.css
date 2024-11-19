@@ -496,7 +496,7 @@
         height: 90%;
         margin-top: 120%;
         margin-left: 5%;
-        border: 5px solid #1b489b;
+        border: 3px solid #1b489b;
         border-radius: 10px;
     }
     
@@ -661,7 +661,7 @@
         height: 90%;
         margin-top: 49%;
         margin-left: 5%;
-        border: 5px solid #1b489b;
+        border: 3px solid #1b489b;
         border-radius: 10px;
         
     }
@@ -780,7 +780,7 @@
     
     .image-top-left3 {
         position: absolute;
-        top: -12%;
+        top: -9%;
         left: -35%;
         width: 90%;
         height: auto;
@@ -816,8 +816,8 @@
         position: absolute;
         display: absolute;
         align-items: center;
-        height: 65%;
-        width: 65%;
+        height: 62%;
+        width: 62%;
         border-radius: 10px;
         margin-left: -2%;
         z-index: 2;
@@ -828,9 +828,9 @@
         
         width: auto;
         height: 90%;
-        margin-top: 60%;
+        margin-top: 120%;
         margin-left: 5%;
-        border: 5px solid #1b489b;
+        border: 3px solid #1b489b;
         border-radius: 10px;
         z-index: 2;
     }
@@ -861,10 +861,10 @@
     
     .bottom-left-button3 {
         position: absolute;
-        bottom: 12%;
+        bottom: 16%;
         left: 3%;
         cursor: pointer;
-        width: 30%;
+        width: 31%;
         height: auto;
         z-index: 2;
     }
@@ -872,7 +872,7 @@
     .Titulo46 {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(340%);
+        transform: translateY(470%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Segoe UI';
@@ -885,10 +885,10 @@
     
     .bottom-left-button23 {
         position: absolute;
-        bottom: 12%;
+        bottom: 16%;
         left: 35%;
         cursor: pointer;
-        width: 30%;
+        width: 31%;
         height: auto;
         z-index: 2;
     }

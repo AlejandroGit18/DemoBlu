@@ -998,7 +998,7 @@
         
         width: 70%;
         height: 100%;
-        margin-top: 30%;
+        margin-top: 35%;
         margin-left: 3%;
         border: 3px solid #1b489b;
         border-radius: 10px;
@@ -1041,7 +1041,7 @@
     .Titulo44MENU {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(300%);
+        transform: translateY(350%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Quicksand';
@@ -1107,7 +1107,7 @@
         height: 13%;
         /*width: 100%;*/
     
-        margin-top: 14%;
+        margin-top: 18%;
         margin-left: 0%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -1122,7 +1122,7 @@
     
     .image-top-left2MENU {
         position: absolute;
-        top: -13%;
+        top: -10%;
         left: -37%;
         width: 90%;
         height: auto;
@@ -1164,7 +1164,7 @@
         
         width: 70%;
         height: 100%;
-        margin-top: 27%;
+        margin-top: 40%;
         margin-left: 3%;
         border: 3px solid #1b489b;
         border-radius: 10px;
@@ -1181,7 +1181,7 @@
         padding-bottom: 50%;
         margin-left: 72%;
         margin-right: 4%;
-        margin-top: -55%;
+        margin-top: -50%;
         /*transform: translateX(82.5%);*/
         transform: translate(80%);
         transform: translateY(-30%);
@@ -1196,10 +1196,10 @@
     
     .bottom-left-button2MENU {
         position: absolute;
-        bottom: 15%;
+        bottom: 16%;
         left: 1%;
         cursor: pointer;
-        width: 23%;
+        width: 28%;
         height: auto;
         z-index: 2;
     }
@@ -1207,7 +1207,7 @@
     .Titulo44MENU {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(230%);
+        transform: translateY(350%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Quicksand';
@@ -1220,10 +1220,10 @@
     
     .bottom-left-button22MENU {
         position: absolute;
-        bottom: 15%;
-        left: 25%;
+        bottom: 16%;
+        left: 30%;
         cursor: pointer;
-        width: 23%;
+        width: 28%;
         height: auto;
         z-index: 2;
     }

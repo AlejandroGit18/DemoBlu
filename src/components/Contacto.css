@@ -547,12 +547,11 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 167%;
-        margin-left: 20%;
+        margin-top: 190%;
+        margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
-
 
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
@@ -621,8 +620,8 @@
         position: fixed;
         display: flex;
         align-items: center;
-        height: 77%;
-        width: 77%;
+        height: 65%;
+        width: 65%;
         border-radius: 10px;
         margin-left: 10%;
         /*overflow: hidden;*/
@@ -632,8 +631,8 @@
         
         width: auto;
         height: 90%;
-        margin-top: 65%;
-        margin-left: -4.5%;
+        margin-top: 90%;
+        margin-left: 8%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
@@ -662,16 +661,16 @@
     
     .bottom-left-button6 {
         position: absolute;
-        bottom: 8%;
-        left: 10%;
+        bottom: 18%;
+        left: 16%;
         cursor: pointer;
-        width: 36%;
+        width: 27%;
         height: auto;
     }
 
     .Titulo3 {
         position: fixed;
-        margin-left: 64%;
+        margin-left: 60%;
         transform: translateY(330%);
         color: #1b489b;
         font-size: 22px;
@@ -684,10 +683,10 @@
     
     .bottom-left-button26 {
         position: fixed;
-        bottom: 8%;
-        left: 50%;
+        bottom: 18%;
+        left: 45%;
         cursor: pointer;
-        width: 36%;
+        width: 27%;
         height: auto;
     }
     

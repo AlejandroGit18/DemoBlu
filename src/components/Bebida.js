@@ -37,10 +37,14 @@ function MainMenu() {
 
     const resetInactivityTimeout = useCallback(() => {
         clearTimeout(inactivityTimeout.current);
-        inactivityTimeout.current = setTimeout(() => {
-            navigate('/Interactua');
-        }, 2 * 60 * 1000);
+    
+        if (window.innerWidth > 1024) { // Solo dispositivos con ancho mayor a 1024px
+            inactivityTimeout.current = setTimeout(() => {
+                navigate('/Interactua');
+            }, 2 * 60 * 1000); // 2 minutos en milisegundos
+        }
     }, [navigate]);
+    
 
     useEffect(() => {
         resetInactivityTimeout();
@@ -67,7 +71,7 @@ function MainMenu() {
                 <img src={ImageTopRight2} alt="Top Right 2" className="image-top-right23BEBIDAS" />
                 <p className="Titulo45BEBIDAS">Bebidas</p>
                 <div className="video-wrapper3BEBIDAS">
-                    <video ref={videoRef} src={videoSource} autoPlay className="video-player3BEBIDAS" />
+                    <video ref={videoRef} src={videoSource} playsInline autoPlay className="video-player3BEBIDAS" />
                 </div>
                 <img
                     src={BotonReproducir}

@@ -941,7 +941,7 @@
 
 
 /* Estilos para dispositivos móviles de tamaño medio a grande */
-@media (max-width: 429px) and (min-width: 375px)
+@media (max-width: 480px) and (min-width: 375px)
 {
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
@@ -973,8 +973,8 @@
         height: 14%;
         /*width: 100%;*/
     
-        margin-top: -55%;
-        margin-left: 33%;
+        margin-top: -28%;
+        margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
         z-index: 9999;
@@ -1037,7 +1037,7 @@
         display: flex;
         align-items: center;
         height: 100%;
-        width: 100%;
+        width: 85%;
         border-radius: 10px;
         margin-left: 0%;
         margin-top: 0%;
@@ -1048,9 +1048,9 @@
     
     .video-player11INTERACTUA {
         width: auto;
-        height: 71%;
-        margin-top: -22%;
-        margin-left: 9%;
+        height: 70%;
+        margin-top: -14%;
+        margin-left: 10%;
         border: 3px solid #1b489b;
         border-radius: 10px;
         z-index: 99;
@@ -1074,7 +1074,7 @@
         padding-bottom: 60%;
         margin-left: 35%;
         margin-right: 0%;
-        margin-top: -23%;
+        margin-top: -16%;
         /*transform: translateX(82.5%);*/
         transform: translate(80%);
         transform: translateY(-30%);
@@ -1101,7 +1101,7 @@
         /*width: 100%;*/
     
         margin-top: -58%;
-        margin-left: 33%;
+        margin-left: 31%;
         margin-bottom: 0%;
         margin-right: 0%;
         z-index: 9999;

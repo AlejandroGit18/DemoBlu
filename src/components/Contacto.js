@@ -25,10 +25,14 @@ function MainMenu() {
 
     const resetInactivityTimeout = useCallback(() => {
         clearTimeout(inactivityTimeout.current);
-        inactivityTimeout.current = setTimeout(() => {
-            navigate('/Interactua');
-        }, 2 * 60 * 1000); // 2 minutos en milisegundos
+    
+        if (window.innerWidth > 1024) { // Solo dispositivos con ancho mayor a 1024px
+            inactivityTimeout.current = setTimeout(() => {
+                navigate('/Interactua');
+            }, 2 * 60 * 1000); // 2 minutos en milisegundos
+        }
     }, [navigate]);
+    
 
     useEffect(() => {
         resetInactivityTimeout();
@@ -57,6 +61,7 @@ function MainMenu() {
                         ref={videoRef}
                         src={videoSource}
                         autoPlay
+                        playsInline
                         className="video-player6"
                     />
                 </div>

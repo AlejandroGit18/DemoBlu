@@ -502,11 +502,12 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 45%;
-        margin-left: 20%;
+        margin-top: 60%;
+        margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
+
 
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
@@ -595,8 +596,8 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 50%;
-        margin-left: 71%;
-        margin-right: 6%;
+        margin-left: 72%;
+        margin-right: 7%;
         margin-top: -25%;
         /*transform: translateX(82.5%);*/
         transform: translate(80%);
@@ -611,10 +612,10 @@
     
     .bottom-left-button7 {
         position: absolute;
-        bottom: 20%;
+        bottom: 21%;
         left: 3%;
         cursor: pointer;
-        width: 30%;
+        width: 27%;
         height: auto;
     }
 
@@ -633,10 +634,10 @@
     
     .bottom-left-button27 {
         position: fixed;
-        bottom: 20%;
-        left: 36%;
+        bottom: 21%;
+        left: 33%;
         cursor: pointer;
-        width: 30%;
+        width: 27%;
         height: auto;
     }
     

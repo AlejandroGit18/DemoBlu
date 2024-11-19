@@ -15,10 +15,14 @@ function Main() {
 
     const resetInactivityTimeout = useCallback(() => {
         clearTimeout(inactivityTimeout.current);
-        inactivityTimeout.current = setTimeout(() => {
-            navigate('/');
-        }, 2 * 60 * 1000); // 2 minutos en milisegundos
+    
+        if (window.innerWidth > 1024) { // Solo dispositivos con ancho mayor a 1024px
+            inactivityTimeout.current = setTimeout(() => {
+                navigate('/');
+            }, 2 * 60 * 1000); // 2 minutos en milisegundos
+        }
     }, [navigate]);
+    
 
     useEffect(() => {
         const videoElement = videoRef.current;
@@ -107,6 +111,7 @@ function Main() {
                         ref={videoRef}
                         className="video-player11INTERACTUA"
                         src={videoSource}
+                        playsInline
                     />
                 </div>
                 <div className="button-containerINTERACTUA">
