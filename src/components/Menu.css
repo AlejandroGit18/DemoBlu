@@ -820,8 +820,8 @@
     .video-wrapper2MENU {
         display: flex;
         align-items: center;
-        height: 78%;
-        width: 78%;
+        height: 70%;
+        width: 70%;
         border-radius: 10px;
         margin-left: -2%;
         margin-top: 0%;
@@ -833,7 +833,7 @@
         
         width: 90%;
         height: 100%;
-        margin-top: 38%;
+        margin-top: 50%;
         margin-left: 3%;
         border: 3px solid #1b489b;
         border-radius: 10px;
@@ -865,7 +865,7 @@
     
     .bottom-left-button2MENU {
         position: absolute;
-        bottom: 24%;
+        bottom: 27%;
         left: 1%;
         cursor: pointer;
         width: 28%;
@@ -889,7 +889,7 @@
     
     .bottom-left-button22MENU {
         position: absolute;
-        bottom: 24%;
+        bottom: 27%;
         left: 30%;
         cursor: pointer;
         width: 28%;

@@ -524,7 +524,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        z-index: 0; /* Envía el fondo detrás de todos los elementos */
         overflow: hidden;
         background: 
             radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
@@ -675,7 +675,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 0; /* Envía el fondo detrás de todos los elementos */
+        z-index: -9999; /* Envía el fondo detrás de todos los elementos */
         overflow: hidden;
         background: 
             radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
@@ -693,7 +693,8 @@
         margin-left: -5%;
         margin-bottom: 0%;
         margin-right: 0%;
-        z-index: 9999;
+        z-index: -1;
+
     }
 
     .main-containerINTERACTUA {
@@ -789,7 +790,7 @@
         cursor: pointer;
         margin-bottom: 0%;
         width: 80%;
-        z-index: 9999;
+        z-index: 2;
     }
     
     
