@@ -379,12 +379,12 @@
 /* Estilos para dispositivos móviles de tamaño medio a grande */
 @media (max-width: 480px) and (min-width: 350px)
 {
-    .videoZonaHORARIO  {
+    .videoZonaHORARIO {
         position: absolute;
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 157%;
+        margin-top: 150%;
         margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -470,7 +470,7 @@
         
         width: auto;
         height: 100%;
-        margin-top: 50%;
+        margin-top: 45%;
         margin-left: 11%;
         border: 3px solid #1b489b;
         border-radius: 10px;
@@ -500,7 +500,7 @@
     
     .bottom-left-button5 {
         position: absolute;
-        bottom: 20%;
+        bottom: 23%;
         left: 16%;
         cursor: pointer;
         width: 28%;
@@ -522,7 +522,7 @@
     
     .bottom-left-button25 {
         position: absolute;
-        bottom: 20%;
+        bottom: 23%;
         left: 45%;
         cursor: pointer;
         width: 28%;

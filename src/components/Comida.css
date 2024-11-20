@@ -421,7 +421,7 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 155%;
+        margin-top: 147%;
         margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -508,7 +508,7 @@
         
         width: auto;
         height: 100%;
-        margin-top: 65%;
+        margin-top: 57%;
         margin-left: 4%;
         border: 3px solid #1b489b;
         border-radius: 10px;
@@ -538,18 +538,17 @@
     
     .bottom-left-button3 {
         position: absolute;
-        bottom: 21%;
+        bottom: 24%;
         left: 3%;
         cursor:pointer;
         width: 28%;
         height: auto;
     }
 
-
     .Titulo46 {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(340%);
+        transform: translateY(300%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Segoe UI';
@@ -562,7 +561,7 @@
     
     .bottom-left-button23 {
         position: absolute;
-        bottom: 21%;
+        bottom: 24%;
         left: 33%;
         cursor: pointer;
         width: 28%;
