@@ -776,7 +776,7 @@
         height: 13%;
         /*width: 100%;*/
     
-        margin-top: 8%;
+        margin-top: 15%;
         margin-left: 0%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -791,7 +791,7 @@
     
     .image-top-left2MENU {
         position: absolute;
-        top: -10%;
+        top: -12%;
         left: -33%;
         width: 90%;
         height: auto;
@@ -820,8 +820,8 @@
     .video-wrapper2MENU {
         display: flex;
         align-items: center;
-        height: 69%;
-        width: 69%;
+        height: 71%;
+        width: 72.5%;
         border-radius: 10px;
         margin-left: 0%;
         margin-top: 0%;
@@ -848,8 +848,8 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 50%;
-        margin-left: 70%;
-        margin-right: 6%;
+        margin-left: 69%;
+        margin-right: 5%;
         margin-top: -50%;
         /*transform: translateX(82.5%);*/
         transform: translate(80%);
@@ -865,10 +865,10 @@
     
     .bottom-left-button2MENU {
         position: absolute;
-        bottom: 19%;
+        bottom: 14%;
         left: 3%;
         cursor: pointer;
-        width: 26%;
+        width: 28%;
         height: auto;
         z-index: 2;
     }
@@ -889,8 +889,8 @@
     
     .bottom-left-button22MENU {
         position: absolute;
-        bottom: 19%;
-        left: 30%;
+        bottom: 14%;
+        left: 32%;
         cursor: pointer;
         width: 28%;
         height: auto;

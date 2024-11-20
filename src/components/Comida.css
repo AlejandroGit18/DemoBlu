@@ -421,7 +421,7 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 147%;
+        margin-top: 152%;
         margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -459,9 +459,9 @@
         width: auto;
     }
     
-    .image-top-left3  {
+    .image-top-left3 {
         position: absolute;
-        top: -10%;
+        top: -12%;
         left: -35%;
         width: 90%;
         height: auto;
@@ -470,11 +470,11 @@
     .image-top-right13 {
         position:fixed;
         top: 55%;
-        margin-left: 73%;
+        margin-left: 70%;
         margin-right: 0%;
         margin-bottom: 0%;
         display: flex;
-        width: 25%;
+        width: 27%;
         gap: 1%;
     }
     
@@ -482,19 +482,19 @@
     {
         position:fixed;
         top: 40%;
-        margin-left: 73%;
+        margin-left: 70%;
         margin-right: 0%;
         margin-bottom: 0%;
         display: flex;
-        width: 25%;
+        width: 27%;
         gap: 1%;
     }
     
-    .video-wrapper3  {
+    .video-wrapper3 {
         position: absolute;
         display: absolute;
         align-items: center;
-        height: 55%;
+        height: 57%;
         width: 55%;
         border-radius: 10px;
         margin-left: 0%;
@@ -538,7 +538,7 @@
     
     .bottom-left-button3 {
         position: absolute;
-        bottom: 24%;
+        bottom: 21%;
         left: 3%;
         cursor:pointer;
         width: 28%;
@@ -559,9 +559,9 @@
     }
     
     
-    .bottom-left-button23 {
+    .bottom-left-button23  {
         position: absolute;
-        bottom: 24%;
+        bottom: 21%;
         left: 33%;
         cursor: pointer;
         width: 28%;
