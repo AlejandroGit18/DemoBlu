@@ -818,12 +818,12 @@
         border: 2px solid #1b489b;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
         z-index: 9999;
-        margin-top: -20%;
+        margin-top: 0%;
     }
 
     .card-title h5 {
         background-color: #cbe3ee;
-        padding: 1rem 2rem;
+        padding: 0.5rem 1rem;
         border-radius: 50px;
         border: 1px solid #1b489b;
         font-weight: bold;
@@ -864,7 +864,7 @@
     .input_text {
         background-color: #cbe3ee;
         width: 95%;
-        height: 5rem;
+        height: 4rem;
         border: 1px solid #1b489b;
         border-radius: 15px;
         padding: 10px;
@@ -878,7 +878,7 @@
     }
 
     .custom-line {
-        border-top: 4px solid #1b489b;
+        border-top: 2.5px solid #1b489b;
         width: 50%;
         margin-top: 5px;
         margin-left: 55px;
@@ -896,11 +896,11 @@
         border-radius: 35px;
         cursor: pointer;
         width: 90px;
-        height: 30px;
+        height: 25px;
         text-shadow: 0.5px 0.5px 0 #1b489b88;
         transition: background-color 0.3s ease;
         margin-top: 1%;
-        margin-bottom: -150px;
+
     }
 
     .boton-enviar:hover {
@@ -908,7 +908,7 @@
     }
 
     .feedback-image {
-        width: 25px; /* Ajusta el tamaño según tus necesidades */
+        width: 20px; /* Ajusta el tamaño según tus necesidades */
         height: auto;
         margin-bottom: 10px;
     }
@@ -925,8 +925,8 @@
 
     .emoji-slider::-webkit-slider-thumb,
     .emoji-slider::-moz-range-thumb {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
         background-color: #1b489b;
         border-radius: 50%;
         cursor: pointer;

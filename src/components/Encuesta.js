@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import ImageBottomLeft from './Semicirculo.png';
 import ImageTopLeft from './Semicirculo con Logo.png';
 import ImageAngry from './TRISTE2.png';
@@ -12,6 +12,7 @@ import { useNavigate } from 'react-router-dom';
 
 function Encuesta() {
     const navigate = useNavigate();
+    const inactivityTimeout = useRef(null); // Usar useRef para manejar el timeout
 
     const [valores, setValores] = useState({
         pregunta1: 0,
@@ -83,30 +84,29 @@ function Encuesta() {
     };
 
     const resetInactivityTimeout = useCallback(() => {
-        if (window.matchMedia('(max-width: 768px)').matches) {
-            clearTimeout(window.inactivityTimeout);
-            window.inactivityTimeout = setTimeout(() => {
+        clearTimeout(inactivityTimeout.current);
+
+        if (window.innerWidth > 1024) { // Solo para dispositivos con ancho mayor a 1024px
+            inactivityTimeout.current = setTimeout(() => {
                 navigate('/Interactua');
-            }, 2 * 60 * 1000);
+            }, 2 * 60 * 1000); // 2 minutos
         }
     }, [navigate]);
 
     useEffect(() => {
-        if (window.matchMedia('(max-width: 768px)').matches) {
-            resetInactivityTimeout();
+        resetInactivityTimeout();
 
-            const events = ['mousemove', 'mousedown', 'keypress', 'scroll', 'touchstart'];
+        const events = ['mousemove', 'mousedown', 'keypress', 'scroll', 'touchstart'];
+        events.forEach(event =>
+            window.addEventListener(event, resetInactivityTimeout)
+        );
+
+        return () => {
+            clearTimeout(inactivityTimeout.current);
             events.forEach(event =>
-                window.addEventListener(event, resetInactivityTimeout)
+                window.removeEventListener(event, resetInactivityTimeout)
             );
-
-            return () => {
-                clearTimeout(window.inactivityTimeout);
-                events.forEach(event =>
-                    window.removeEventListener(event, resetInactivityTimeout)
-                );
-            };
-        }
+        };
     }, [resetInactivityTimeout]);
 
     return (

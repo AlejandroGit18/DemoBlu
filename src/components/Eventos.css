@@ -384,11 +384,12 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 142%;
+        margin-top: 157%;
         margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
+
 
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
@@ -422,7 +423,7 @@
         width: auto;
     }
     
-    .image-top-left5{
+    .image-top-left5 {
         position: absolute;
         top: -10%;
         left: -35%;
@@ -457,19 +458,20 @@
         position: absolute;
         display: absolute;
         align-items: center;
-        height: 55%;
-        width: 55%;
+        height: 59%;
+        width: 59%;
         border-radius: 10px;
         margin-left: 9%;
         /*overflow: hidden;*/
     }
     
+    
     .video-player5 {
         
         width: auto;
         height: 100%;
-        margin-top: 35%;
-        margin-left: 15%;
+        margin-top: 50%;
+        margin-left: 11%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
@@ -496,19 +498,19 @@
         width: 110%;
     }
     
-    .bottom-left-button5  {
+    .bottom-left-button5 {
         position: absolute;
-        bottom: 31%;
-        left: 18%;
+        bottom: 20%;
+        left: 16%;
         cursor: pointer;
-        width: 30%;
+        width: 28%;
         height: auto;
     }
 
-    .Titulo2 {
+    .Titulo2  {
         position: fixed;
-        margin-left: 60%;
-        transform: translateY(160%);
+        margin-left: 55%;
+        transform: translateY(240%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Quicksand';
@@ -520,10 +522,10 @@
     
     .bottom-left-button25 {
         position: absolute;
-        bottom: 31%;
-        left: 49%;
+        bottom: 20%;
+        left: 45%;
         cursor: pointer;
-        width: 30%;
+        width: 28%;
         height: auto;
     }
     

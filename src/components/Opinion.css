@@ -502,7 +502,7 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 142%;
+        margin-top: 15%;
         margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -567,11 +567,11 @@
         gap: 1%;
     }
     
-    .video-wrapper7  {
+    .video-wrapper7   {
         display: flex;
         align-items: center;
-        height: 78%;
-        width: 78%;
+        height: 72%;
+        width: 72%;
         border-radius: 10px;
         margin-left: -2%;
         margin-top: 0%;
@@ -579,12 +579,13 @@
         /*overflow: hidden;*/
     }
     
-    .video-player7{
+    
+    .video-player7 {
         
         width: 90%;
         height: auto;
-        margin-top: 20%;
-        margin-left: 3%;
+        margin-top: 56%;
+        margin-left: 6%;
         border: 3px solid #1b489b;
         border-radius: 10px;
         z-index: 2;
@@ -598,30 +599,31 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 50%;
-        margin-left: 72%;
+        margin-left: 70%;
         margin-right: 4%;
-        margin-top: -65%;
+        margin-top: -45%;
         /*transform: translateX(82.5%);*/
         transform: translate(80%);
         transform: translateY(-30%);
         z-index: 2;
     }
-    
+
     .button-image7  {
         cursor: pointer;
         margin-bottom: 15%;
         width: 110%;
     }
     
-    .bottom-left-button7 {
+    .bottom-left-button7  {
         position: absolute;
-        bottom: 24%;
-        left: 1%;
+        bottom: 20%;
+        left: 3%;
         cursor: pointer;
         width: 28%;
         height: auto;
         z-index: 2;
     }
+
 
     .Titulo7 {
         position: fixed;
@@ -638,8 +640,8 @@
     
     .bottom-left-button27  {
         position: absolute;
-        bottom: 24%;
-        left: 30%;
+        bottom: 20%;
+        left: 32%;
         cursor: pointer;
         width: 28%;
         height: auto;

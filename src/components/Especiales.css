@@ -517,8 +517,8 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 154%;
-        margin-left: -47%;
+        margin-top: 160%;
+        margin-left: -52%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
@@ -556,7 +556,7 @@
         width: 70%;
         height: 57vh;
         margin-left: 15%;
-        margin-top: 25%;
+        margin-top: 30%;
         perspective: 1000px;
     }
     
@@ -626,7 +626,7 @@
     .Titulo445  {
         position: fixed;
         margin-left: 60%;
-        transform: translateY(160%);
+        transform: translateY(240%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Quicksand';
@@ -638,7 +638,7 @@
     
     .bottom-left-button225  {
         position: absolute;
-        bottom: 26%;
+        bottom: 22%;
         left: 15%;
         cursor: pointer;
         width: 28%;

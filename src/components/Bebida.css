@@ -741,7 +741,7 @@
     
     .image-top-right13BEBIDAS{
         position:fixed;
-        top: 45%;
+        top: 55%;
         margin-left: 73%;
         margin-right: 0%;
         margin-bottom: 0%;
@@ -753,7 +753,7 @@
     .image-top-right23BEBIDAS
     {
         position:fixed;
-        top: 30%;
+        top: 40%;
         margin-left: 73%;
         margin-right: 0%;
         margin-bottom: 0%;
@@ -779,8 +779,8 @@
         
         width: auto;
         height: 100%;
-        margin-top: 55%;
-        margin-left: 2%;
+        margin-top: 65%;
+        margin-left: 4%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
@@ -809,32 +809,32 @@
     
     .bottom-left-button3BEBIDAS {
         position: absolute;
-        bottom: 25%;
+        bottom: 21%;
         left: 3%;
-        cursor: pointer;
-        width: 30%;
+        cursor:pointer;
+        width: 28%;
         height: auto;
     }
 
     .Titulo45BEBIDAS {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(300%);
+        transform: translateY(340%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Segoe UI';
         font-weight: 700; /* Usa un peso alto para mayor grosor */
         letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
         text-transform: uppercase; /* Convierte el texto a mayúsculas */
-        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+        text-shadow: 0.3px 0.3px 0 #1b489b, -0.3px -0.3px 0 #1b489b, 0.3px -0.3px 0 #1b489b, -0.3px 0.3px 0 #1b489b;
     }
     
     .bottom-left-button23BEBIDAS {
         position: absolute;
-        bottom: 25%;
-        left: 35%;
+        bottom: 21%;
+        left: 33%;
         cursor: pointer;
-        width: 30%;
+        width: 28%;
         height: auto;
     }
     
