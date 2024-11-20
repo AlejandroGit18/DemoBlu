@@ -469,7 +469,7 @@
     
     .image-top-right13 {
         position:fixed;
-        top: 55%;
+        top: 56%;
         margin-left: 70%;
         margin-right: 0%;
         margin-bottom: 0%;
@@ -481,7 +481,7 @@
     .image-top-right23 
     {
         position:fixed;
-        top: 40%;
+        top: 39%;
         margin-left: 70%;
         margin-right: 0%;
         margin-bottom: 0%;
@@ -551,8 +551,8 @@
         transform: translateY(300%);
         color: #1b489b;
         font-size: 20px;
-        font-family: 'Segoe UI';
-        font-weight: 700; /* Usa un peso alto para mayor grosor */
+        font-family: 'Quicksand';
+        font-weight: 900; /* Usa un peso alto para mayor grosor */
         letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
         text-transform: uppercase; /* Convierte el texto a mayúsculas */
         text-shadow: 0.3px 0.3px 0 #1b489b, -0.3px -0.3px 0 #1b489b, 0.3px -0.3px 0 #1b489b, -0.3px 0.3px 0 #1b489b;

@@ -471,7 +471,7 @@
         width: auto;
         height: 100%;
         margin-top: 45%;
-        margin-left: 11%;
+        margin-left: 13%;
         border: 3px solid #1b489b;
         border-radius: 10px;
     }
@@ -500,7 +500,7 @@
     
     .bottom-left-button5 {
         position: absolute;
-        bottom: 23%;
+        bottom: 21%;
         left: 16%;
         cursor: pointer;
         width: 28%;
@@ -522,7 +522,7 @@
     
     .bottom-left-button25 {
         position: absolute;
-        bottom: 23%;
+        bottom: 21%;
         left: 45%;
         cursor: pointer;
         width: 28%;

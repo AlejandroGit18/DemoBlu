@@ -776,7 +776,7 @@
         height: 13%;
         /*width: 100%;*/
     
-        margin-top: 15%;
+        margin-top: 12%;
         margin-left: 0%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -833,7 +833,7 @@
         
         width: 90%;
         height: 100%;
-        margin-top: 45%;
+        margin-top: 42%;
         margin-left: 3%;
         border: 3px solid #1b489b;
         border-radius: 10px;
@@ -865,7 +865,7 @@
     
     .bottom-left-button2MENU {
         position: absolute;
-        bottom: 14%;
+        bottom: 6%;
         left: 3%;
         cursor: pointer;
         width: 28%;
@@ -876,7 +876,7 @@
     .Titulo44MENU {
         position: fixed;
         margin-left: 3%;
-        transform: translateY(300%);
+        transform: translateY(310%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Quicksand';
@@ -889,7 +889,7 @@
     
     .bottom-left-button22MENU {
         position: absolute;
-        bottom: 14%;
+        bottom: 6%;
         left: 32%;
         cursor: pointer;
         width: 28%;

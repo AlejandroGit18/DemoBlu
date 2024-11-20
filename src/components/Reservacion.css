@@ -250,7 +250,7 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 4%;
+        margin-top: 8%;
         margin-left: -50%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -364,7 +364,7 @@
     
     .bottom-left-button7 {
         position: absolute;
-        bottom: 22.5%;
+        bottom: 20.5%;
         left: 3%;
         cursor: pointer;
         width: 28%;
@@ -375,7 +375,7 @@
     .Titulo7 {
         position: fixed;
         margin-left: 5%;
-        transform: translateY(300%);
+        transform: translateY(315%);
         color: #1b489b;
         font-size: 20px;
         font-family: 'Quicksand';
@@ -387,7 +387,7 @@
     
     .bottom-left-button27  {
         position: absolute;
-        bottom: 22.5%;
+        bottom: 20.5%;
         left: 32%;
         cursor: pointer;
         width: 28%;
