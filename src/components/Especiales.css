@@ -517,7 +517,7 @@
         height: 15%;
         /*width: 100%;*/
     
-        margin-top: 160%;
+        margin-top: 150%;
         margin-left: -52%;
         margin-bottom: 0%;
         margin-right: 0%;
@@ -553,8 +553,8 @@
         display: absolute;
         align-items: center;
         justify-content: center;
-        width: 70%;
-        height: 57vh;
+        width: 68%;
+        height: 56vh;
         margin-left: 15%;
         margin-top: 30%;
         perspective: 1000px;
@@ -591,7 +591,7 @@
         background-color: rgba(0, 0, 0, 0.5);
         border: none;
         color: white;
-        font-size: 2rem;
+        font-size: 1rem;
         cursor: pointer;
         z-index: 2;
     }
@@ -616,7 +616,7 @@
 
     .image-top-left2 {
         position: absolute;
-        top: -8%;
+        top: -10%;
         left: -35%;
         width: 90%;
         height: auto;
@@ -625,7 +625,7 @@
 
     .Titulo445  {
         position: fixed;
-        margin-left: 60%;
+        margin-left: 55%;
         transform: translateY(240%);
         color: #1b489b;
         font-size: 20px;
