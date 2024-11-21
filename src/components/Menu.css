@@ -122,49 +122,38 @@
 
 @media (min-width: 1600px) and (max-width: 2900px)
 {
-    body {
-        margin: 0;
-        font-family: 'Quicksand', sans-serif;
-        background-color: #d1dbe8; /* Color de fondo general */
-        position: absolute;
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 160px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 160px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
         overflow: hidden;
-        height: 100vh;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
     }
-    
-    /* Elemento de fondo con sombras difuminadas */
-    body::before, body::after {
-        content: "";
-        position: absolute;
-        border-radius: 100%;
-        filter: blur(250px);
-        opacity: 0.6;
-    }
-    
-    /* Manchas superiores */
-    body::before {
-        width: 800px;
-        height: 800px;
-        top: 15%;
-        left: 80%;
-        background-color: #4593f1; /* Color de la primera mancha */
-    }
-    
-    /* Manchas inferiores */
-    body::after {
-        width: 1200px;
-        height: 1200px;
-        bottom: 0%;
-        right: -60%;
-        background-color: #97add4; /* Color de la segunda mancha */
-    }
-    
+
     .videoZonaMENU{
         position: absolute;
-        height: 15%;
+        height: 13%;
         /*width: 100%;*/
     
-        margin-top: 15%;
-        margin-left: 5%;
+        margin-top: 10%;
+        margin-left: 3%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
@@ -179,8 +168,8 @@
     .image-top-left2MENU {
         position: absolute;
         top: -13%;
-        left: -75%;
-        width: 200%;
+        left: -38%;
+        width: 100%;
         height: auto;
         z-index: 2;
     }
@@ -207,10 +196,10 @@
     .video-wrapper2MENU {
         display: flex;
         align-items: center;
-        height: 150%;
-        width: 135%;
+        height: 72%;
+        width: 72%;
         border-radius: 10px;
-        margin-left: 5%;
+        margin-left: 0%;
         margin-top: 0%;
         margin-bottom: 0%;
         /*overflow: hidden;*/
@@ -218,13 +207,14 @@
     
     .video-player2MENU {
         
-        width: 200%;
-        height: 200%;
-        margin-top: 50%;
+        width: 100%;
+        height: 100%;
+        margin-top: 42%;
         margin-left: 3%;
-        border: 12px solid #1b489b;
+        border: 3px solid #1b489b;
         border-radius: 10px;
         z-index: 2;
+        visibility: hidden;
     }
     
     .button-container2MENU {
@@ -235,9 +225,9 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 50%;
-        margin-left: 71%;
-        margin-right: 3%;
-        margin-top: -45%;
+        margin-left: 69%;
+        margin-right: 5%;
+        margin-top: -50%;
         /*transform: translateX(82.5%);*/
         transform: translate(80%);
         transform: translateY(-30%);
@@ -247,40 +237,41 @@
     .button-image2MENU {
         cursor: pointer;
         margin-bottom: 15%;
-        width: 100%;
+        width: 110%;
     }
     
     .bottom-left-button2MENU {
         position: absolute;
-        bottom: 12%;
-        left: 10%;
+        bottom: 6%;
+        left: 3%;
         cursor: pointer;
-        width: 50%;
+        width: 28%;
         height: auto;
-        z-index: 999;
+        z-index: 2;
     }
 
     .Titulo44MENU {
         position: fixed;
-        margin-left: 5%;
-        transform: translateY(345%);
+        margin-left: -20%;
+        transform: translateY(100%);
         color: #1b489b;
-        font-size: 110px;
+        font-size: 44px;
         font-family: 'Quicksand';
         font-weight: 900; /* Usa un peso alto para mayor grosor */
-        letter-spacing: 15px; /* Ajusta el espaciado entre letras si lo deseas */
+        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
         text-transform: uppercase; /* Convierte el texto a mayúsculas */
-        text-shadow: 6px 6px 0 #1b489b, -6px -6px 0 #1b489b, 2px -2px 0 #1b489b, -2px 2px 0 #1b489b;
+        text-shadow: 0.3px 0.3px 0 #1b489b, -0.3px -0.3px 0 #1b489b, 0.3px -0.3px 0 #1b489b, -0.3px 0.3px 0 #1b489b;
+        z-index: 2;
     }
     
     .bottom-left-button22MENU {
         position: absolute;
-        bottom: 12%;
-        left: 63%;
+        bottom: 6%;
+        left: 32%;
         cursor: pointer;
-        width: 50%;
+        width: 28%;
         height: auto;
-        z-index: 999;
+        z-index: 2;
     }
     
     .image-bottom-left2MENU {
@@ -291,7 +282,6 @@
         right: 0%;
         width: 80%;
         height: auto;
-        z-index: 2;
     }
     
     
