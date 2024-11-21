@@ -202,14 +202,39 @@
         height: 100vh;
         width: 100%;
     }*/
+
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 600px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 600px; 
+    }
     
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
+  
     .card {
-        margin-top: 40%;
+        margin-top: 45%;
         display: flex;
         text-align: center;
         margin-right: 100%;
-        margin-left: -41%;
-        width: 180%; /* Escalado en proporción a la pantalla */
+        margin-left: -25%;
+        width: 150%; /* Escalado en proporción a la pantalla */
         height: auto; /* Escalado en proporción a la pantalla */
         padding: 4rem;
         border-radius: 1%;
@@ -220,19 +245,19 @@
     
     .card-title h5 {
         background-color: #cbe3ee;
-        padding: 6rem 3rem;
+        padding: 4rem 1rem;
         border-radius: 250px;
         border: 8px solid #1b489b;
         font-weight: bold;
         font-family: Arial, sans-serif;
-        font-size: 4.5em; /* Aumenta el tamaño de fuente */
+        font-size: 3.5em; /* Aumenta el tamaño de fuente */
         color: #1b489b;
         text-transform: uppercase;
         text-shadow: 3px 3px 1 #1b489b88, -3px -3px 1 #1b489b88;
-        width: 70%;
-        margin-left: 15%;
+        width: 60%;
+        margin-left: 22%;
         margin-top: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
     }
 
     .texto1{
@@ -247,11 +272,11 @@
 
     .texto1, .texto2, .texto3, .texto4, .texto5 {
         font-family: Arial, sans-serif;
-        font-size: 5em;
+        font-size: 3.5em;
         color: #1b489b;
         font-weight: 500;
         max-width: 80%;
-        margin-top: 1%;
+        margin-top: 0%;
     }
 
     .texto5 {
@@ -261,13 +286,13 @@
     .input_text {
         background-color: #cbe3ee;
         width: 75%;
-        height: 35rem;
+        height: 30rem;
         border: 8px solid #1b489b;
         border-radius: 100px;
         padding: 10px;
         color: #1b489b;
         font-family: Arial, sans-serif;
-        font-size: 5rem;
+        font-size: 3rem;
         outline: none;
         resize: none;
         text-align: center;
@@ -275,9 +300,9 @@
     }
 
     .custom-line {
-        border-top: 15px solid #1b489b;
+        border-top: 10px solid #1b489b;
         width: 50%;
-        margin: 100px auto;
+        margin: 50px auto;
     }
 
     .boton-enviar {
@@ -285,13 +310,13 @@
         color: #1b489b;
         font-weight: bold;
         font-family: Arial, sans-serif;
-        font-size: 5em;
+        font-size: 3.5em;
         padding: 5px 10px;
         border: 8px solid #1b489b;
         border-radius: 200px;
         cursor: pointer;
-        width: 700px;
-        height: 250px;
+        width: 500px;
+        height: 200px;
         text-shadow: 5px 5px 1 #1b489b88;
         transition: background-color 0.3s ease;
         margin-top: 1%;
@@ -347,7 +372,7 @@
 
     .star {
         margin-top: -4%;
-        font-size: 15em;
+        font-size: 11em;
         color: #cbe3ee;
         cursor: pointer;
         transition: color 1s ease;
@@ -365,10 +390,10 @@
         position: absolute;
         margin-top: -3%;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 50%;
         color: #FFA500;
-        -webkit-text-stroke: 20px #FFA500;
+        -webkit-text-stroke: 15px #FFA500;
         z-index: -1;
         gap: 10px;
     }
@@ -383,7 +408,7 @@
 
     .image-top-left2 {
         position: absolute;
-        top: -13%;
+        top: -10%;
         left: -35%;
         width: 90%;
         height: auto;

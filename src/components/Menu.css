@@ -125,11 +125,11 @@
     :root {
         --shadow-x: 90%; /* Posición horizontal de la sombra */
         --shadow-y: 70%; /* Posición vertical de la sombra */
-        --shadow-size: 160px; 
+        --shadow-size: 600px; 
 
         --shadow-x1: 40%; /* Posición horizontal de la sombra */
         --shadow-y1: 20%; /* Posición vertical de la sombra */
-        --shadow-size1: 160px; 
+        --shadow-size1: 600px; 
     }
     
     .background-containerMAIN {
@@ -149,11 +149,11 @@
 
     .videoZonaMENU{
         position: absolute;
-        height: 13%;
+        height: 15%;
         /*width: 100%;*/
     
-        margin-top: 10%;
-        margin-left: 3%;
+        margin-top: 8%;
+        margin-left: 0%;
         margin-bottom: 0%;
         margin-right: 0%;
     }
@@ -209,12 +209,12 @@
         
         width: 100%;
         height: 100%;
-        margin-top: 42%;
-        margin-left: 3%;
-        border: 3px solid #1b489b;
+        margin-top: 45%;
+        margin-left: 4%;
+        border: 15px solid #1b489b;
         border-radius: 10px;
         z-index: 2;
-        visibility: hidden;
+     
     }
     
     .button-container2MENU {
@@ -225,7 +225,7 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 50%;
-        margin-left: 69%;
+        margin-left: 73%;
         margin-right: 5%;
         margin-top: -50%;
         /*transform: translateX(82.5%);*/
@@ -242,34 +242,34 @@
     
     .bottom-left-button2MENU {
         position: absolute;
-        bottom: 6%;
+        bottom: 10%;
         left: 3%;
         cursor: pointer;
-        width: 28%;
+        width: 25%;
         height: auto;
         z-index: 2;
     }
 
     .Titulo44MENU {
         position: fixed;
-        margin-left: -20%;
-        transform: translateY(100%);
+        margin-left: 4%;
+        transform: translateY(260%);
         color: #1b489b;
-        font-size: 44px;
-        font-family: 'Quicksand';
+        font-size: 130px;
+        font-family: 'Segoe UI';
         font-weight: 900; /* Usa un peso alto para mayor grosor */
-        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        letter-spacing: 1.5px; /* Ajusta el espaciado entre letras si lo deseas */
         text-transform: uppercase; /* Convierte el texto a mayúsculas */
-        text-shadow: 0.3px 0.3px 0 #1b489b, -0.3px -0.3px 0 #1b489b, 0.3px -0.3px 0 #1b489b, -0.3px 0.3px 0 #1b489b;
+        text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
         z-index: 2;
     }
     
     .bottom-left-button22MENU {
         position: absolute;
-        bottom: 6%;
-        left: 32%;
+        bottom: 10%;
+        left: 29%;
         cursor: pointer;
-        width: 28%;
+        width: 25%;
         height: auto;
         z-index: 2;
     }

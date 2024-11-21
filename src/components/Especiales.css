@@ -121,16 +121,51 @@
 
 @media (min-width: 1600px) and (max-width: 2900px)
 {
+    .videoZonaESPECIALES {
+        position: absolute;
+        height: 18%;
+        /*width: 100%;*/
+    
+        margin-top: 10%;
+        margin-left: -50%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 600px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 600px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
     
     .carousel-container {
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 78%;
-        height: 75vh;
-        margin-left: 11%;
-        margin-top: 20%;
+        width: 75%;
+        height: 65vh;
+        margin-left: 12%;
+        margin-top: 30%;
         perspective: 1000px;
     }
     
@@ -188,12 +223,13 @@
     }
     
 
-    .image-top-left2 {
+    .image-top-left2  {
         position: absolute;
-        top: -14%;
-        left: -35%;
-        width: 90%;
+        top: -13%;
+        left: -38%;
+        width: 100%;
         height: auto;
+        z-index: 2;
     }
     
     .bottom-left-button2 {
@@ -205,23 +241,24 @@
         height: auto;
     }
 
-    .Titulo445 {
+    .Titulo445{
         position: fixed;
-        margin-left: 62%;
-        transform: translateY(180%);
+        margin-left: 50%;
+        transform: translateY(220%);
         color: #1b489b;
         font-size: 130px;
         font-family: 'Segoe UI';
         font-weight: 900; /* Usa un peso alto para mayor grosor */
-        letter-spacing: 1px; /* Ajusta el espaciado entre letras si lo deseas */
+        letter-spacing: 1.5px; /* Ajusta el espaciado entre letras si lo deseas */
         text-transform: uppercase; /* Convierte el texto a mayúsculas */
         text-shadow: 1px 1px 0 #1b489b, -1px -1px 0 #1b489b, 1px -1px 0 #1b489b, -1px 1px 0 #1b489b;
+        z-index: 2;
     }
     
     .bottom-left-button225 {
         position: fixed;
-        bottom: 8%;
-        left: 10%;
+        bottom: 12%;
+        left: 12%;
         cursor: pointer;
         width: 27%;
         height: auto;
@@ -241,6 +278,30 @@
 
 @media (min-width: 1281px) and (max-width: 1599px)
 {
+    :root {
+        --shadow-x: 90%; /* Posición horizontal de la sombra */
+        --shadow-y: 70%; /* Posición vertical de la sombra */
+        --shadow-size: 600px; 
+
+        --shadow-x1: 40%; /* Posición horizontal de la sombra */
+        --shadow-y1: 20%; /* Posición vertical de la sombra */
+        --shadow-size1: 600px; 
+    }
+    
+    .background-containerMAIN {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Envía el fondo detrás de todos los elementos */
+        overflow: hidden;
+        background: 
+            radial-gradient(circle at 50% 20%, rgba(57, 122, 202, 0.3), transparent), /* Mancha superior en el centro */
+            radial-gradient(circle at 90% 90%, rgba(57, 122, 202, 0.3), transparent), /* Mancha inferior derecha */
+            radial-gradient(circle var(--shadow-size) at var(--shadow-x) var(--shadow-y), rgba(20, 60, 150, 0.3), transparent),
+            radial-gradient(circle var(--shadow-size1) at var(--shadow-x1) var(--shadow-y1), rgba(20, 60, 150, 0.3), transparent); /* Mancha oscura con tamaño ajustable */
+    }
     
     .carousel-container {
         position: relative;
@@ -310,7 +371,7 @@
 
     .image-top-left2 {
         position: absolute;
-        top: -15%;
+        top: -12%;
         left: -35%;
         width: 90%;
         height: auto;

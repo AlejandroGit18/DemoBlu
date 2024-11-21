@@ -6,7 +6,7 @@ import ImageTopLeft from './Semicirculo con Logo.png';
 import ImageBottomLeft from './Semicirculo.png';
 import BotonReproducir from './Reproduci de nueva.png';
 import BotonRegresar from './Regresar.png';
-import './Opinion.css';
+import './Reservacion.css';
 import VideoZona from './POWERED.png';
 
 function MainMenu() {
@@ -59,7 +59,7 @@ function MainMenu() {
                 {/* Imagen superior izquierda */}
                 <img src={ImageTopLeft} alt="Top Left" className="image-top-left7" />
 
-                <p className="Titulo7">Opinión</p>
+                <p className="Titulo7opinion">Opinión</p>
 
                 {/* Contenedor de video */}
                 <div className="video-wrapper7">
